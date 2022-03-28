@@ -106,6 +106,7 @@ If you have no programming background, start here. These two courses will introd
 |--|--|--|--|
 | [Python for Everybody](https://www.py4e.com/) | [Python for Everybody Book](https://www.py4e.com/book) | [Coursera’s version](https://www.coursera.org/specializations/python) | / |
 |[Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) | [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) | [OCW’s Version](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) | / |
+
 **Rust Part:**
 After finishing the above courses, you should be able to read the book, in addition to the official book, another small book with a gentler introduction to some concepts is provided. And while you're at it, solve the exercises and questions below to help retain the knowledge.
 There is no particular order to go through the materials except of course reading the relevant chapter from the book before solving its exercises.
