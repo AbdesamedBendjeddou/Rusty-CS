@@ -100,14 +100,14 @@ The below material assumes that you have already finished high school. If not, y
 
 ## Introduction
 
-**CS Part:**
+**CS Part:** <br>
 If you have no programming background, start here. These two courses will introduce you to the world of Computer Science and give you solid fundamentals that you need to go through the curriculum and the Rust book. I would also suggest that you do some small projects with python for maximized learning.  
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 | [Python for Everybody](https://www.py4e.com/) | [Python for Everybody Book](https://www.py4e.com/book) | [Coursera’s version](https://www.coursera.org/specializations/python) | / |
 |[Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) | [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) | [OCW’s Version](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) | / |
 
-**Rust Part:**
+**Rust Part:** <br>
 After finishing the above courses, you should be able to read the book, in addition to the official book, another small book with a gentler introduction to some concepts is provided. And while you're at it, solve the exercises and questions below to help retain the knowledge.
 There is no particular order to go through the materials except of course reading the relevant chapter from the book before solving its exercises.
 If you learn better by watching videos, you can also check the following Youtube series [Crust of Rust](https://www.youtube.com/watch?v=rAl-9HwD858&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa).
@@ -139,12 +139,13 @@ This course covers the most important parts of mathematics relevant to CS, which
 
 ## Algorithms 1
 
-**CS part:**
+**CS part:**<br>
 Familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study.
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 |[Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | [VisuAlgo](https://visualgo.net/en) visualizing data structures and algorithms through animation | - Introduction to Computer Science and Programming using Python. <br> - Mathematics for Computer Science.|
-**Rust part:**
+
+**Rust part:**<br>
 Solving problems with the language that you are trying to learn is the best way to learn it. Go ahead and solve as most as you can. Check more problems at leetcode.com, Hackerrank, Codewars, etc...
 
 - [**Book**-Hands-On Data Structures and Algorithms with Rust](https://www.packtpub.com/application-development/hands-data-structures-and-algorithms-rust)
@@ -157,7 +158,7 @@ Solving problems with the language that you are trying to learn is the best way 
 
 ## Programming
 
-**CS part:**
+**CS part:**<br>
 These courses teach general ways of thinking and form neural pathways in your brain that will serve you forever and you will use them in literally everything. (quoting from [spamegg](https://github.com/spamegg1/reviews#-how-to-code-1--2) cause I couldn't find any better motivation).
 And from teachyourselfcs.com about SICP :SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying. while the last course will help you understand the tools that you need to make it easier for you to create programs like Git.
 | Course name | Associated Book | Other Resources | Prerequisite |
@@ -166,7 +167,8 @@ And from teachyourselfcs.com about SICP :SICP is unique in its ability—at leas
 | [How to Code Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x) | [How to Design Programs](https://htdp.org/) | / | How to Code Simple Data|
 | [Berkeley 61A](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E) | [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp) | [Course Website](https://cs61a.org/) | / |
 | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | / | / | / |
-**Rust part:**
+
+**Rust part:**<br>
 A bunch of small projects in Rust, this is officially your first step toward the Art of Programming. there is no particular order and you don't have to do all of them.
 
 - [**Book**-Rust Programming by Example](https://www.amazon.com/Rust-Programming-Example-concurrent-applications/dp/1788390636)
@@ -197,12 +199,13 @@ Learning what is going on under the hood of a computer system is what makes the 
 
 ## Networking and Communications
 
-**CS part:**
+**CS part:**<br>
 From teachyourselfcs.com: Given that so much of software engineering is on web servers and clients, one of the most immediately valuable areas of computer science is computer networking. Our self-taught students who methodically study networking find that they finally understand terms, concepts and protocols they’d been surrounded by for years.
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 | [Introduction to Computer Networking](https://gaia.cs.umass.edu/kurose_ross/) | [Computer Networking: A Top-Down Approach](https://www.amazon.com/Computer-Networking-2-downloads-James-Kurose-ebook/dp/B08KF4RQ5N/ref=sr_1_5?dchild=1&keywords=Kurose+and+Ross+8th&qid=1625941998&sr=8-5) | [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) | Some Programmming |
-**Rust part:**
+
+**Rust part:**<br>
 A reimplementation of what you learned about networks in Rust. This will be of great value in your future projects.
 
 - [**Repo**-TIKV Practical Networked Applications in Rust](https://github.com/pingcap/talent-plan/tree/master/courses/rust)
@@ -220,22 +223,24 @@ It's necessary to learn how databases work. You will find yourself dealing with 
 
 ## Algorithms 2
 
-**CS part:**
+**CS part:**<br>
 A more advanced treatment of algorithms.
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 | [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | / | Introduction to Algorithms |
-**Rust part:**
+
+**Rust part:**<br>
 solve more advanced problems from the challenges websites.
 
 ## Operating Systems
 
-**CS part:**
+**CS part:**<br>
 So what happens when a program runs?
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | / | - Choose Unix kernel [book](https://pastebin.com/TBLSuvra) <br>- Do the Labs [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) | Introduction to Computer Systems<br> or Computation Structures |
-**Rust part:**
+
+**Rust part:**<br>
 
 - [**Book**-Rust in Action](https://www.manning.com/books/rust-in-action) [Repo](https://github.com/rust-in-action/code)
 - [**Blog**-Writing a file system from scratch in Rust](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
@@ -246,12 +251,13 @@ So what happens when a program runs?
 
 ## Distributed Computing
 
-**CS part:**
+**CS part:**<br>
 “It’s typical now for even very small applications to run across multiple machines. Distributed systems is the study of how to reason about the trade-offs involved in doing so.”
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 | [Distributed Systems](https://www.cl.cam.ac.uk/teaching/2122/ConcDisSys/materials.html) | [Designing Data-Intensive Applications](https://dataintensive.net/) | [Author Website](https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html) | Operating Systems and networking |
-**Rust part:**
+
+**Rust part:**<br>
 
 - [**Book**-Async Raft](https://async-raft.github.io/async-raft/) - the Raft distributed consensus protocol in async Rust
 - [TIKV Training program in Distributed Systems](https://tikv.org/blog/talent-training/)  this course focuses on implementing important distributed algorithms, including the Raft consensus algorithm, and the Percolator distributed transaction protocol.
@@ -259,14 +265,15 @@ So what happens when a program runs?
 ## Compilers and Interpreters
 
 “If you don't know how compilers work, then you don't know how computers work”. The first two courses cover the same topic, choose one.
-**CS part:**
+**CS part:**<br>
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 | [Automata, Computability, and Complexity](https://stellar.mit.edu/S/course/6/sp15/6.045/materials.html) | - [Introduction to the Theory of Computation, Michael Sipser](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X)<br>- [Computational Complexity: A Modern Approach, Sanjeev Aror](http://theory.cs.princeton.edu/complexity/)  | [OCW Link](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/index.htm) | Mathematics for Computer Science |
 | [Theory of Computation](http://web.cecs.pdx.edu/~harry/TheoryOfComp/index.html) | [Introduction to the Theory of Computation, Michael Sipser](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X) | / | Mathematics for Computer Science |
 | [Crafting interpreters](https://craftinginterpreters.com/) | / | / | / |
 | [Compilers](https://www.edx.org/course/compilers) | [Compilers: Principles, Techniques & Tools](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) | / | / |
-**Rust part:**
+
+**Rust part:**<br>
 
 - [**Blog**-Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html)
 - [**Playlist**-Rust Ports of Carfting interpreters](https://www.youtube.com/playlist?list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN)
@@ -291,12 +298,13 @@ Some recommended math courses, usefull specially for people want to follow the m
 
 ## Intelligent Systems
 
-**CS part:**
+**CS part:**<br>
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 | [Artificial intelligence](http://ai.berkeley.edu/home.html) | [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) | / | - Berkeley 61A <br>- Mathematics for Computer Science |
 | [Machine Learning](https://www.coursera.org/learn/machine-learning) | / | / | / |
-**Rust part:**
+
+**Rust part:**<br>
 
 - [Interactive tutorials on machine learning with Rust](http://learning-machines.herokuapp.com/)
 - [**Repo**-End-to-end Rust ML tutorial aimed at Rust beginners](https://github.com/rust-community/rustbridge)
@@ -305,9 +313,10 @@ Some recommended math courses, usefull specially for people want to follow the m
 
 ## Programming Languages 2
 
-**CS part:**
+**CS part:**<br>
 This part should cover the materials needed to learn about designing programming languages, it's lengthy subject, my recommendation for anyone want to study it is to follow [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html) Curriculum, in addition to some books like [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/) and [Category Theory for Programmers](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco).
-**Rust part:**
+
+**Rust part:**<br>
 
 - [**Blog Series**-A series about making a programming language called Eldiro using the Rust programming language.](https://arzg.github.io/lang/) (read pratt pasing first)
 - [**Playlist**-Writing a Programming Language](https://www.youtube.com/watch?v=XOOBL3bhFHs&list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy)
