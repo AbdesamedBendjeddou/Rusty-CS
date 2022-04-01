@@ -131,16 +131,16 @@ The best course to learn how computers work and how to build one. This course wi
 
 ## Discrete Structures
 
-This course covers the most important parts of mathematics relevant to CS, which are needed later in areas like Algorithms and Sytems studies. The set of lecture notes by László Lovász did a good job of making the content approachable and intuitive, so this serves as a better starting point, then you can move to the more advanced Math for CS by MIT.
+This course covers the most important parts of mathematics relevant to CS, which are needed later in areas like Algorithms and Sytems studies. The set of lecture notes by László Lovász did a good job of making the content approachable and intuitive, so this serves as a better starting point, then you can move to the more advanced Math for CS by MIT. Make sure to check How to Solve it book, a unique guide to general problem solving.
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
-| [lecture notes by László Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf) | / | / | /|
+| [lecture notes by László Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf) | / | [How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) | /|
 | [Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about) | [Mathematics for Computer Science - Lehman, Meyer, Leighton](https://people.csail.mit.edu/meyer/mcs.pdf) | [Alternate version with solutions to the problem sets](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/) | / |
 
 ## Algorithms 1
 
 **CS part:**<br>
-Familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study.
+Familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study. How to Solve it book will also be usefull here.
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
 |[Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | [VisuAlgo](https://visualgo.net/en) visualizing data structures and algorithms through animation | - Introduction to Computer Science and Programming using Python. <br> - Mathematics for Computer Science.|
