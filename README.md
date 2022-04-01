@@ -43,22 +43,22 @@ let RustyCS = CS.iter().zip(Rust.iter())
   - [Programming Languages 2](#programming-languages-2)
   - [Extra](#extra)
 - [What else I can do with Rust?](#what-else-i-can-do-with-rust)
-  - [CLI:](#cli)
-  - [Web:](#web)
-  - [Games:](#games)
+  - [CLI](#cli)
+  - [Web](#web)
+  - [Games](#games)
   - [Web Assembly](#web-assembly)
-  - [Gui:](#gui)
-  - [Mobile Apps:](#mobile-apps)
-  - [Blockchain:](#blockchain)
+  - [Gui](#gui)
+  - [Mobile Apps](#mobile-apps)
+  - [Blockchain](#blockchain)
 - [Rust Handy refrences](#rust-handy-refrences)
     - [Use While Developing your Project](#use-while-developing-your-project)
     - [Use to finalize your Project](#use-to-finalize-your-project)
-- [Projects, Workshops & Live Streams:](#projects-workshops--live-streams)
-- [Blogs and Channels:](#blogs-and-channels)
+- [Projects, Workshops & Live Streams](#projects-workshops--live-streams)
+- [Blogs and Channels](#blogs-and-channels)
 - [Rust Community](#rust-community)
 - [Crates and Libs](#crates-and-libs)
-- [Jobs:](#jobs)
-- [Sources:](#sources)
+- [Jobs](#jobs)
+- [Sources](#sources)
 
 # Why learn Computer Science
 
@@ -203,7 +203,7 @@ Learning what is going on under the hood of a computer system is what makes the 
 From teachyourselfcs.com: Given that so much of software engineering is on web servers and clients, one of the most immediately valuable areas of computer science is computer networking. Our self-taught students who methodically study networking find that they finally understand terms, concepts and protocols they’d been surrounded by for years.
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
-| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/lectures.php) | [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) | Some Programmming |
+| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/lectures.php) | [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) | Some Programmming |
 
 **Rust part:**<br>
 A reimplementation of what you learned about networks in Rust. This will be of great value in your future projects.
@@ -338,7 +338,7 @@ Courses that are not necessary but I think they are cool
 
 # What else I can do with Rust?
 Choose topics that interest you and study them while going through the curriculum.
-## CLI:
+## CLI
 - [Diving into Rust with a CLI](https://kbknapp.dev/rust-cli/)
 - [**Book**-Command Line Book](https://rust-cli.github.io/book/index.html)
 - [**Book**-Command-Line Rust](https://www.oreilly.com/library/view/command-line-rust/9781098109424/) [Repo](https://github.com/kyclark/command-line-rust) Learn the language by writing Rust versions of common Unix coreutils like head, tail, cal, cut, comm, etc.
@@ -351,7 +351,7 @@ Choose topics that interest you and study them while going through the curriculu
 	- [Crossterm, pure-rust, terminal manipulation](https://github.com/crossterm-rs/crossterm)
 	- [pancurses, a curses library for Rust](https://github.com/ihalila/pancurses) 
 
-## Web:
+## Web
 - [Rust web framework list and comparison](https://github.com/flosse/rust-web-framework-comparison)
 - [**Book**-Zero to Production in Rust](https://www.zero2prod.com/index.html?country=Algeria&discount_code=AF60) [Repo](https://github.com/LukeMathWalker/zero-to-production)
 - [**Book**-Black Hat Rust](https://kerkour.com/black-hat-rust)
@@ -359,7 +359,7 @@ Choose topics that interest you and study them while going through the curriculu
 - [**Book**-Rust Web Development](https://www.manning.com/books/rust-web-development)
 - [Build a Smart Bookmarking Tool with Rust and Rocket and Heruko](https://developers.facebook.com/blog/post/2020/06/03/build-smart-bookmarking-tool-rust-rocket/)
 
-## Games:
+## Games
 - [Learning Rust by Coding a Game of Snake](https://snake.rustbridge.com/#learning-rust-by-coding-a-game-of-snake)
 - [Tic Tac Toe](https://minimax.dev/docs/ultimate/)
 - [Sokoban Game](https://sokoban.iolivia.me/c01-00-intro.html) 
@@ -387,7 +387,7 @@ Choose topics that interest you and study them while going through the curriculu
 - [Create a simulation of evolution using neural network and genetic algorithm, and compile the application to WebAssembly](https://pwy.io/en/posts/learning-to-fly-pt1/)
 - [Rust Raytracer compiled to Webassembly to run live in browser](https://www.reddit.com/r/rust/comments/s9yki0/rust_raytracer_compiled_to_webassembly_to_run/)
 
-## Gui:
+## Gui
 - [FLTK Rust gui tutorial: Basics](https://www.youtube.com/watch?v=ygP4egJtmzw)
 - [How I Built a Cross-Platform Desktop Application with Svelte, Redis, and Rust](https://css-tricks.com/how-i-built-a-cross-platform-desktop-application-with-svelte-redis-and-rust/)
 - [Druid](https://linebender.org/druid/)
@@ -396,7 +396,7 @@ Choose topics that interest you and study them while going through the curriculu
 - [**Book**-GUI development with Relm4](https://aaronerhardt.github.io/relm4-book/book/)
 - [7 GUI Tasks](https://eugenkiss.github.io/7guis/tasks/)
 
-## Mobile Apps: 
+## Mobile Apps 
 - [Flutter+Rust](https://github.com/shekohex/flutterust)
 - [Using WebAssembly in Flutter Web](https://gpalma.pt/blog/flutter-web-web-assembly/)
 - [Write UI using Flutter, a cross-platform hot-reload high-performance toolkit, seamlessly with Rust](https://www.reddit.com/r/rust/comments/swrbyv/write_ui_using_flutter_a_crossplatform_hotreload/) 
@@ -405,7 +405,7 @@ Choose topics that interest you and study them while going through the curriculu
 - [Building and Deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html)
 - [Building and Deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html)
 
-## Blockchain: 
+## Blockchain
 - [**Book**-Blockchain For Rust Developers](https://www.amazon.com/Blockchain-Rust-Developers-application-Hands/dp/B0874JFXSD/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1592558073&sr=8-1)
 - [Awesome Blockchain Rust](https://github.com/rust-in-blockchain/awesome-blockchain-rust)
 - [Rust in Blockchain](https://rustinblockchain.org/) 
@@ -523,7 +523,7 @@ These are useful resources but are not meant to be read cover to cover. Instead,
   - [TP 102: How to use Git and GitHub](https://github.com/pingcap/talent-plan/blob/master/courses/tp102-how-to-use-git-github.md)
   - [TP 103: Build a welcoming community](https://github.com/pingcap/talent-plan/blob/master/courses/tp103-open-source-community.md)
 
-# Projects, Workshops & Live Streams:
+# Projects, Workshops & Live Streams
 - [Projects-from-Scratch](https://github.com/AlgoryL/Projects-from-Scratch) Projects Ideas.
 - [Learning Parser Combinators With Rust](https://bodil.lol/parser-combinators/)
 - [**Blog**-Rust and CSV Parsing](http://blog.burntsushi.net/csv/)
@@ -540,7 +540,7 @@ These are useful resources but are not meant to be read cover to cover. Instead,
   - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
   - [Projects Ideas](https://www.reddit.com/r/learnrust/comments/k3od5w/comment/ge6z7rx/?utm_source=share&utm_medium=web2x&context=3)
 
-# Blogs and Channels:
+# Blogs and Channels
 - [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming)
 - [Hackr.io: most upvoted Rust ressources](https://hackr.io/tutorials/learn-rust?sort=upvotes)
 - [Morioh](https://morioh.com/topic/rust)
@@ -581,12 +581,12 @@ These are useful resources but are not meant to be read cover to cover. Instead,
 - [Serde JSON](https://github.com/serde-rs/json)
 - [Dyner](https://dyner.netlify.app/) experimental trait (_dyn_) objects in Rust
 
-# Jobs:
+# Jobs
 - [RustJobs](https://rustjobs.dev/)
 - [Companies that use Rust](https://www.rust-lang.org/production/users)
 
 
-# Sources:
+# Sources
 These are some of the sources I used for the Rust parts of this curriculum. 
 - [Rust Books](https://github.com/sger/RustBooks) (commit of Mar 17, 2022 )
 - [Awesome Rust, A curated list of Rust code and resources.](https://github.com/rust-unofficial/awesome-rust) (commit of Mar 22, 2022 )
