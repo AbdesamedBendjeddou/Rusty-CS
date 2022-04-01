@@ -116,7 +116,6 @@ If you learn better by watching videos, you can also check the following Youtube
 - [**Book**-A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro)
 - [**Book**-Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/) A community driven collection of example code which follow Rust best practices.
 - [**Track**-Rustlings](https://github.com/rust-lang/rustlings/)
-- [**Track**-Rust Exercism](https://exercism.org/tracks/rust)
 - [**Book**-Rust By Practice](https://practice.rs/why-exercise.html)
 - [**Book**-Rust Practise Questions](https://sn99.github.io/rust-practise-questions/) (sic)
 - [Rust Quiz](https://dtolnay.github.io/rust-quiz/14)
@@ -171,6 +170,7 @@ And from teachyourselfcs.com about SICP :SICP is unique in its ability—at leas
 **Rust part:**<br>
 A bunch of small projects in Rust, this is officially your first step toward the Art of Programming. there is no particular order and you don't have to do all of them.
 
+- [**Track**-Rust Exercism](https://exercism.org/tracks/rust)
 - [**Book**-Rust Programming by Example](https://www.amazon.com/Rust-Programming-Example-concurrent-applications/dp/1788390636)
 - [**Book**-Creative Projects for Rust Programmers](https://www.packtpub.com/programming/creative-projects-for-rust-programmers)
 - [**Repo**-Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust/) - A test-driven workshop to learn Rust building your own JIRA clone!
