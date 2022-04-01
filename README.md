@@ -203,7 +203,7 @@ Learning what is going on under the hood of a computer system is what makes the 
 From teachyourselfcs.com: Given that so much of software engineering is on web servers and clients, one of the most immediately valuable areas of computer science is computer networking. Our self-taught students who methodically study networking find that they finally understand terms, concepts and protocols they’d been surrounded by for years.
 | Course name | Associated Book | Other Resources | Prerequisite |
 |--|--|--|--|
-| [Introduction to Computer Networking](https://gaia.cs.umass.edu/kurose_ross/) | [Computer Networking: A Top-Down Approach](https://www.amazon.com/Computer-Networking-2-downloads-James-Kurose-ebook/dp/B08KF4RQ5N/ref=sr_1_5?dchild=1&keywords=Kurose+and+Ross+8th&qid=1625941998&sr=8-5) | [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) | Some Programmming |
+| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/lectures.php) | [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) | Some Programmming |
 
 **Rust part:**<br>
 A reimplementation of what you learned about networks in Rust. This will be of great value in your future projects.
