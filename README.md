@@ -8,6 +8,12 @@
 A Computer Science Curriculum with Rust flavor!
 </p>
 
+<p align="center">
+<a href="https://github.com/rust-unofficial/awesome-rust">
+		<img src="https://awesome.re/mentioned-badge-flat.svg" alt="Awesome">
+</a>
+</p>
+
 ```rust
 // tl:dr
 let RustyCS = CS.iter().zip(Rust.iter())
