@@ -1,4 +1,4 @@
-<p  align="center"> بسم الله الرحمان الرحيم</p>
+<p  align="center"> بسم الله الرحمن الرحيم</p>
 
 <p align="center">
   <img src="https://fontmeme.com/permalink/220326/f0317afa6de04ad1c83003645b98179d.png">
