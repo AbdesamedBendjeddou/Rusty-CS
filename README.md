@@ -417,7 +417,7 @@ Choose topics that interest you and study them while going through the curriculu
 - [Rust in Blockchain](https://rustinblockchain.org/) 
 - [Where is the best place to learn Rust in context of Crypto/Blockchain](https://www.reddit.com/r/rust/comments/mz5m9p/where_is_the_best_place_to_learn_rust_in_context/)
 
-# Rust Handy refrences
+# Rust Handy references
 
 These are useful resources but are not meant to be read cover to cover. Instead, use them every time you are developing a project. you'll find references for some features that you may have a hard time understanding or help you when you are wondering what's the best way to read a file or parse an argument.
 
