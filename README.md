@@ -17,7 +17,7 @@ A Computer Science Curriculum with Rust flavor!
 ```rust
 // tl:dr
 let RustyCS = CS.iter().zip(Rust.iter())
- ```
+```
 
 # Contents
 
@@ -57,8 +57,8 @@ let RustyCS = CS.iter().zip(Rust.iter())
   - [Mobile Apps](#mobile-apps)
   - [Blockchain](#blockchain)
 - [Rust Handy refrences](#rust-handy-refrences)
-    - [Use While Developing your Project](#use-while-developing-your-project)
-    - [Use to finalize your Project](#use-to-finalize-your-project)
+  - [Use While Developing your Project](#use-while-developing-your-project)
+  - [Use to finalize your Project](#use-to-finalize-your-project)
 - [Projects, Workshops & Live Streams](#projects-workshops--live-streams)
 - [Blogs and Channels](#blogs-and-channels)
 - [Rust Community](#rust-community)
@@ -69,6 +69,7 @@ let RustyCS = CS.iter().zip(Rust.iter())
 # Why learn Computer Science
 
 from Teachyourselfcs.com:
+
 > There are 2 types of software engineer: those who understand computer science well enough to do challenging, innovative work, and those who just get by because they’re familiar with a few high level tools.
 > Both call themselves software engineers, and both tend to earn similar salaries in their early careers. But Type 1 engineers progress toward more fulfilling and well-remunerated work over time, whether that’s valuable commercial work or breakthrough open-source projects, technical leadership or high-quality individual contributions.
 > Type 1 engineers find ways to learn computer science in depth, whether through conventional means or by relentlessly learning throughout their careers. Type 2 engineers typically stay at the surface, learning specific tools and technologies rather than their underlying foundations, only picking up new skills when the winds of technical fashion change.
@@ -93,7 +94,8 @@ you don't have to study all the material, just what you are interested in and yo
 
 # Contribution
 
-Everyone is welcome to contribute to this curriculum. For broken/missing links, spelling errors, and language refactoring, please create a pull request with the fixes. If you think that there is an issue with the curriculum, like missing or wrong prerequisites, wrong order of courses, inaccurate or a better description of courses and sections, better alternatives to the suggested courses, please open an issue stating what's wrong and your suggestion to fix it. 
+Everyone is welcome to contribute to this curriculum. For broken/missing links, spelling errors, and language refactoring, please create a pull request with the fixes. If you think that there is an issue with the curriculum, like missing or wrong prerequisites, wrong order of courses, inaccurate or a better description of courses and sections, better alternatives to the suggested courses, please open an issue stating what's wrong and your suggestion to fix it.
+
 # Acknowledgment
 
 Although this was an original idea, I consider The [OSSU](https://github.com/ossu/computer-science/) and [Teachyourselfcs](https://teachyourselfcs.com) curriculums prior arts. This project borrowed a lot from them in terms of courses recommendations and organizations, even quotes. Many thanks to them.
@@ -107,11 +109,18 @@ The below material assumes that you have already finished high school. If not, y
 ## Introduction
 
 **CS Part:** <br>
-If you have no programming background, start here. These two courses will introduce you to the world of Computer Science and give you solid fundamentals that you need to go through the curriculum and the Rust book. I would also suggest that you do some small projects with python for maximized learning.  
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Python for Everybody](https://www.py4e.com/) | [Python for Everybody Book](https://www.py4e.com/book) | [Coursera’s version](https://www.coursera.org/specializations/python) | / |
-|[Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) | [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) | [OCW’s Version](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) | / |
+If you have no programming background, start here. These two courses will introduce you to the world of Computer Science and give you solid fundamentals that you need to go through the curriculum and the Rust book. I would also suggest that you do some small projects with python for maximized learning.
+
+
+| Course name                                                                                                                                    | Associated Book                                                                                                                                                 | Other Resources                                                                                                                                                                 | Prerequisite |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Python for Everybody](https://www.py4e.com/)                                                                                                  | [Python for Everybody Book](https://www.py4e.com/book)                                                                                                          | [Coursera’s version](https://www.coursera.org/specializations/python)                                                                                                          | /            |
+| [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) | [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) | [OCW’s Version](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) | /            |
+
+###### Awesome summaries:
+
+[100 Computer Science Terms](https://www.youtube.com/watch?v=-uleG_Vecis)
+[CS in layman terminology](http://carlcheo.com/compsci)
 
 **Rust Part:** <br>
 After finishing the above courses, you should be able to read the book, in addition to the official book, another small book with a gentler introduction to some concepts is provided. And while you're at it, solve the exercises and questions below to help retain the knowledge.
@@ -124,31 +133,38 @@ If you learn better by watching videos, you can also check the following Youtube
 - [**Track**-Rustlings](https://github.com/rust-lang/rustlings/)
 - [**Book**-Rust By Practice](https://practice.rs/why-exercise.html)
 - [**Book**-Rust Practise Questions](https://sn99.github.io/rust-practise-questions/) (sic)
+- [Book-Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) A breakdown of the rust language in the most plain english possible
 - [Rust Quiz](https://dtolnay.github.io/rust-quiz/14)
 
 ## Systems Fundamentals
 
 The best course to learn how computers work and how to build one. This course will prepare you for the upcoming courses about computer architectures and operating systems.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Build a Modern Computer from First Principles Part 1](https://www.coursera.org/learn/build-a-computer) | [The Elements of Computing Systems](https://mitpress.mit.edu/books/elements-computing-systems) | [Course website](https://www.nand2tetris.org/) | / |
-| [Build a Modern Computer from First Principles Part 2](https://www.coursera.org/learn/nand2tetris2) | [The Elements of Computing Systems](https://mitpress.mit.edu/books/elements-computing-systems) | [Course website](https://www.nand2tetris.org/) | Build a Modern Computer from First Principles Part 1 |
+
+
+| Course name                                                                                             | Associated Book                                                                                | Other Resources                                | Prerequisite                                         |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------ |
+| [Build a Modern Computer from First Principles Part 1](https://www.coursera.org/learn/build-a-computer) | [The Elements of Computing Systems](https://mitpress.mit.edu/books/elements-computing-systems) | [Course website](https://www.nand2tetris.org/) | /                                                    |
+| [Build a Modern Computer from First Principles Part 2](https://www.coursera.org/learn/nand2tetris2)     | [The Elements of Computing Systems](https://mitpress.mit.edu/books/elements-computing-systems) | [Course website](https://www.nand2tetris.org/) | Build a Modern Computer from First Principles Part 1 |
 
 ## Discrete Structures
 
 This course covers the most important parts of mathematics relevant to CS, which are needed later in areas like Algorithms and Sytems studies. The set of lecture notes by László Lovász did a good job of making the content approachable and intuitive, so this serves as a better starting point, then you can move to the more advanced Math for CS by MIT. Make sure to check How to Solve it book, a unique guide to general problem solving.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [lecture notes by László Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf) | / | [How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) | /|
-| [Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about) | [Mathematics for Computer Science - Lehman, Meyer, Leighton](https://people.csail.mit.edu/meyer/mcs.pdf) | [Alternate version with solutions to the problem sets](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/) | / |
+
+
+| Course name                                                                                                       | Associated Book                                                                                          | Other Resources                                                                                                                                                                                | Prerequisite |
+| ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- |
+| [lecture notes by László Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf)      | /                                                                                                        | [How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)                                                                                            | /            |
+| [Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about) | [Mathematics for Computer Science - Lehman, Meyer, Leighton](https://people.csail.mit.edu/meyer/mcs.pdf) | [Alternate version with solutions to the problem sets](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/) | /            |
 
 ## Algorithms 1
 
 **CS part:**<br>
 Familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study. How to Solve it book will also be usefull here.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-|[Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | [VisuAlgo](https://visualgo.net/en) visualizing data structures and algorithms through animation | - Introduction to Computer Science and Programming using Python. <br> - Mathematics for Computer Science.|
+
+
+| Course name                                                                                                                                                | Associated Book                                                                                                 | Other Resources                                                                                  | Prerequisite                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | [VisuAlgo](https://visualgo.net/en) visualizing data structures and algorithms through animation | - Introduction to Computer Science and Programming using Python.<br> - Mathematics for Computer Science. |
 
 **Rust part:**<br>
 Solving problems with the language that you are trying to learn is the best way to learn it. Go ahead and solve as most as you can. Check more problems at leetcode.com, Hackerrank, Codewars, etc...
@@ -166,12 +182,14 @@ Solving problems with the language that you are trying to learn is the best way 
 **CS part:**<br>
 These courses teach general ways of thinking and form neural pathways in your brain that will serve you forever and you will use them in literally everything. (quoting from [spamegg](https://github.com/spamegg1/reviews#-how-to-code-1--2) cause I couldn't find any better motivation).
 And from teachyourselfcs.com about SICP :SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying. while the last course will help you understand the tools that you need to make it easier for you to create programs like Git.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [How to Code Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x) | [How to Design Programs](https://htdp.org/) | / | / |
-| [How to Code Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x) | [How to Design Programs](https://htdp.org/) | / | How to Code Simple Data|
-| [Berkeley 61A](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E) | [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp) | [Course Website](https://cs61a.org/) | / |
-| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | / | / | / |
+
+
+| Course name                                                                             | Associated Book                                                                   | Other Resources                      | Prerequisite            |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------- | ------------------------- |
+| [How to Code Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x)   | [How to Design Programs](https://htdp.org/)                                       | /                                    | /                       |
+| [How to Code Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x) | [How to Design Programs](https://htdp.org/)                                       | /                                    | How to Code Simple Data |
+| [Berkeley 61A](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E)       | [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp) | [Course Website](https://cs61a.org/) | /                       |
+| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)             | /                                                                                 | /                                    | /                       |
 
 **Rust part:**<br>
 A bunch of small projects in Rust, this is officially your first step toward the Art of Programming. there is no particular order and you don't have to do all of them.
@@ -189,27 +207,33 @@ A bunch of small projects in Rust, this is officially your first step toward the
 ## Programming Languages 1
 
 You can't really be a good programmer without knowing how programming languages work.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Programming Languages Part A](https://www.coursera.org/learn/programming-languages) | / | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | How to Code Complex Data |
-| [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | / | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
-| [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | / | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
+
+
+| Course name                                                                                 | Associated Book | Other Resources                                                          | Prerequisite                 |
+| --------------------------------------------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------- | ------------------------------ |
+| [Programming Languages Part A](https://www.coursera.org/learn/programming-languages)        | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | How to Code Complex Data     |
+| [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
+| [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
 
 ## Architecture and Organization
 
 Learning what is going on under the hood of a computer system is what makes the difference between a programmer and a good programmer. Understand computer systems will let you write faster, more efficient and more reliable software. Both courses cover the same topics. I couldn't choose which one to put in the curriculum so I did put them both, you only need to take one.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Introduction to Computer Systems](http://www.cs.cmu.edu/~213/) | [Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/) | / | Build a Modern Computer from First Principles Part 2 |
-| [Computation Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/index.htm) | / | / | Build a Modern Computer from First Principles Part 2 |  
+
+
+| Course name                                                                                                                                          | Associated Book                                                          | Other Resources | Prerequisite                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------ |
+| [Introduction to Computer Systems](http://www.cs.cmu.edu/~213/)                                                                                      | [Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/) | /               | Build a Modern Computer from First Principles Part 2 |
+| [Computation Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/index.htm) | /                                                                        | /               | Build a Modern Computer from First Principles Part 2 |
 
 ## Networking and Communications
 
 **CS part:**<br>
 From teachyourselfcs.com: Given that so much of software engineering is on web servers and clients, one of the most immediately valuable areas of computer science is computer networking. Our self-taught students who methodically study networking find that they finally understand terms, concepts and protocols they’d been surrounded by for years.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/lectures.php) | [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) | Some Programmming |
+
+
+| Course name                                                                                    | Associated Book                                                                             | Other Resources                                                      | Prerequisite      |
+| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------- |
+| [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/lectures.php) | [Computer Networking: A Top-Down Approach](https://gaia.cs.umass.edu/kurose_ross/index.php) | -[Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) | Some Programmming |
 
 **Rust part:**<br>
 A reimplementation of what you learned about networks in Rust. This will be of great value in your future projects.
@@ -222,18 +246,22 @@ A reimplementation of what you learned about networks in Rust. This will be of g
 ## Information Management
 
 It's necessary to learn how databases work. You will find yourself dealing with them in almost all fields of programming.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Berkeley CS186 Introduction to Database Systems](https://www.youtube.com/user/CS186Berkeley/videos) | / | - [cs186berkeley.net](https://cs186berkeley.net/) <br>- [Architecture of a Database System (Paper)](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) <br>- [redbook.io](http://www.redbook.io/) | Some Programming |
-| Data Modeling | [Data and Reality: A Timeless Perspective](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory) | / |
+
+
+| Course name                                                                                          | Associated Book                                                                                                                  | Other Resources                                                                                                                                                                                          | Prerequisite     |
+| ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [Berkeley CS186 Introduction to Database Systems](https://www.youtube.com/user/CS186Berkeley/videos) | /                                                                                                                                | -[cs186berkeley.net](https://cs186berkeley.net/) <br>- [Architecture of a Database System (Paper)](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) <br>- [redbook.io](http://www.redbook.io/) | Some Programming |
+| Data Modeling                                                                                        | [Data and Reality: A Timeless Perspective](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory)                                                                                                                         | /                |
 
 ## Algorithms 2
 
 **CS part:**<br>
 A more advanced treatment of algorithms.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | / | Introduction to Algorithms |
+
+
+| Course name                                                                                                                                                                 | Associated Book                                                                                                 | Other Resources | Prerequisite               |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------------- |
+| [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | /               | Introduction to Algorithms |
 
 **Rust part:**<br>
 solve more advanced problems from the challenges websites.
@@ -242,9 +270,11 @@ solve more advanced problems from the challenges websites.
 
 **CS part:**<br>
 So what happens when a program runs?
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | / | - Choose Unix kernel [book](https://pastebin.com/TBLSuvra) <br>- Do the Labs [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) | Introduction to Computer Systems<br> or Computation Structures |
+
+
+| Course name                                                                     | Associated Book | Other Resources                                                                                                                                    | Prerequisite                                                   |
+| --------------------------------------------------------------------------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | /               | - Choose Unix kernel[book](https://pastebin.com/TBLSuvra) <br>- Do the Labs [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) | Introduction to Computer Systems<br> or Computation Structures |
 
 **Rust part:**<br>
 
@@ -259,8 +289,10 @@ So what happens when a program runs?
 
 **CS part:**<br>
 “It’s typical now for even very small applications to run across multiple machines. Distributed systems is the study of how to reason about the trade-offs involved in doing so.”
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
+
+
+| Course name                                                                             | Associated Book                                                     | Other Resources                                                                                        | Prerequisite                     |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------- |
 | [Distributed Systems](https://www.cl.cam.ac.uk/teaching/2122/ConcDisSys/materials.html) | [Designing Data-Intensive Applications](https://dataintensive.net/) | [Author Website](https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html) | Operating Systems and networking |
 
 **Rust part:**<br>
@@ -272,12 +304,14 @@ So what happens when a program runs?
 
 “If you don't know how compilers work, then you don't know how computers work”. The first two courses cover the same topic, choose one.
 **CS part:**<br>
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Automata, Computability, and Complexity](https://stellar.mit.edu/S/course/6/sp15/6.045/materials.html) | - [Introduction to the Theory of Computation, Michael Sipser](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X)<br>- [Computational Complexity: A Modern Approach, Sanjeev Aror](http://theory.cs.princeton.edu/complexity/)  | [OCW Link](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/index.htm) | Mathematics for Computer Science |
-| [Theory of Computation](http://web.cecs.pdx.edu/~harry/TheoryOfComp/index.html) | [Introduction to the Theory of Computation, Michael Sipser](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X) | / | Mathematics for Computer Science |
-| [Crafting interpreters](https://craftinginterpreters.com/) | / | / | / |
-| [Compilers](https://www.edx.org/course/compilers) | [Compilers: Principles, Techniques & Tools](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811) | / | / |
+
+
+| Course name                                                                                             | Associated Book                                                                                                                                                                                                                                                | Other Resources                                                                                                                                        | Prerequisite                     |
+| --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [Automata, Computability, and Complexity](https://stellar.mit.edu/S/course/6/sp15/6.045/materials.html) | -[Introduction to the Theory of Computation, Michael Sipser](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X)<br>- [Computational Complexity: A Modern Approach, Sanjeev Aror](http://theory.cs.princeton.edu/complexity/) | [OCW Link](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/index.htm) | Mathematics for Computer Science |
+| [Theory of Computation](http://web.cecs.pdx.edu/~harry/TheoryOfComp/index.html)                         | [Introduction to the Theory of Computation, Michael Sipser](https://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/113318779X)                                                                                                               | /                                                                                                                                                      | Mathematics for Computer Science |
+| [Crafting interpreters](https://craftinginterpreters.com/)                                              | /                                                                                                                                                                                                                                                              | /                                                                                                                                                      | /                                |
+| [Compilers](https://www.edx.org/course/compilers)                                                       | [Compilers: Principles, Techniques & Tools](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)                                                                                                                                  | /                                                                                                                                                      | /                                |
 
 **Rust part:**<br>
 
@@ -297,25 +331,29 @@ TO DO Inshallah
 ## Mathematics
 
 Some recommended math courses, usefull specially for people want to follow the machine learning track.
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Linear Algebra](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+18.06SC+2T2019/about) | [Introduction to Linear Algebra - Gilbert Strang](https://math.mit.edu/~gs/linearalgebra/) | [Essence of linear algebra](https://www.youtube.com/playlist?app=desktop&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | / |
-| [Probability](https://projects.iq.harvard.edu/stat110/home) | [Introduction to Probability 2nd ed - Joe Blitzstein](http://probabilitybook.net/) | / | / |
+
+
+| Course name                                                                                      | Associated Book                                                                            | Other Resources                                                                                                   | Prerequisite |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Linear Algebra](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+18.06SC+2T2019/about) | [Introduction to Linear Algebra - Gilbert Strang](https://math.mit.edu/~gs/linearalgebra/) | [Essence of linear algebra](https://www.youtube.com/playlist?app=desktop&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | /            |
+| [Probability](https://projects.iq.harvard.edu/stat110/home)                                      | [Introduction to Probability 2nd ed - Joe Blitzstein](http://probabilitybook.net/)         | /                                                                                                                 | /            |
 
 ## Intelligent Systems
 
 **CS part:**<br>
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Artificial intelligence](http://ai.berkeley.edu/home.html) | [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) | / | - Berkeley 61A <br>- Mathematics for Computer Science |
-| [Machine Learning](https://www.coursera.org/learn/machine-learning) | / | / | / |
+
+
+| Course name                                                         | Associated Book                                                            | Other Resources | Prerequisite                                         |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------- | ------------------------------------------------------ |
+| [Artificial intelligence](http://ai.berkeley.edu/home.html)         | [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) | /               | - Berkeley 61A<br>- Mathematics for Computer Science |
+| [Machine Learning](https://www.coursera.org/learn/machine-learning) | /                                                                          | /               | /                                                    |
 
 **Rust part:**<br>
 
 - [Interactive tutorials on machine learning with Rust](http://learning-machines.herokuapp.com/)
 - [**Repo**-End-to-end Rust ML tutorial aimed at Rust beginners](https://github.com/rust-community/rustbridge)
 - [Blog Series-multiple blog posts about Rust ML](https://tiberiusferreira.github.io/blog/)
-- [https://www.arewelearningyet.com/](Track the statre of Rust on the Machine learning field)
+- [Track the statre of Rust on the Machine learning field](https://www.arewelearningyet.com/)
 
 ## Programming Languages 2
 
@@ -331,33 +369,38 @@ This part should cover the materials needed to learn about designing programming
 ## Extra
 
 Courses that are not necessary but I think they are cool
-| Course name | Associated Book | Other Resources | Prerequisite |
-|--|--|--|--|
-| [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/) | / | / | / |
-| [Game Theory Part1](https://www.coursera.org/learn/game-theory-1) | / | / | / |
-| [Game Theory Part2](https://www.coursera.org/learn/game-theory-2) | / | / | / |
-| [Ben Eater's Build an 8-bit computer from scratch](https://eater.net/8bit) | / | / | / |
-| [The Art of Multiprocessor Programming](https://www.elsevier.com/books/the-art-of-multiprocessor-programming/herlihy/978-0-12-415950-1) teaching both the theory of concurrency and practical algorithms. | / | / | / |
-| [Great ressouces about designing systems](https://github.com/madd86/awesome-system-design) | / | / | / |
-| [Extra list of classic books](https://www.reddit.com/r/learnprogramming/comments/dd6e0g/what_are_your_favorite_books_on_general_cs/f2f270w/?utm_source=share&utm_medium=web2x&context=3) | / | / | / |
 
+
+| Course name                                                                                                                                                                                               | Associated Book | Other Resources | Prerequisite |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | -------------- |
+| [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)                                                                                                                   | /               | /               | /            |
+| [Game Theory Part1](https://www.coursera.org/learn/game-theory-1)                                                                                                                                        | /               | /               | /            |
+| [Game Theory Part2](https://www.coursera.org/learn/game-theory-2)                                                                                                                                        | /               | /               | /            |
+| [Ben Eater's Build an 8-bit computer from scratch](https://eater.net/8bit)                                                                                                                                | /               | /               | /            |
+| [The Art of Multiprocessor Programming](https://www.elsevier.com/books/the-art-of-multiprocessor-programming/herlihy/978-0-12-415950-1) teaching both the theory of concurrency and practical algorithms. | /               | /               | /            |
+| [Great ressouces about designing systems](https://github.com/madd86/awesome-system-design)                                                                                                                | /               | /               | /            |
+| [Extra list of classic books](https://www.reddit.com/r/learnprogramming/comments/dd6e0g/what_are_your_favorite_books_on_general_cs/f2f270w/?utm_source=share&utm_medium=web2x&context=3)                  | /               | /               | /            |
 
 # What else I can do with Rust?
+
 Choose topics that interest you and study them while going through the curriculum.
+
 ## CLI
+
 - [Diving into Rust with a CLI](https://kbknapp.dev/rust-cli/)
 - [**Book**-Command Line Book](https://rust-cli.github.io/book/index.html)
 - [**Book**-Command-Line Rust](https://www.oreilly.com/library/view/command-line-rust/9781098109424/) [Repo](https://github.com/kyclark/command-line-rust) Learn the language by writing Rust versions of common Unix coreutils like head, tail, cal, cut, comm, etc.
 - Crates
-	- [StructOpt, parses command line arguments by defining a struct](https://crates.io/crates/structopt) 
-	- [Clap, Command Line Argument Parser for Rust](https://github.com/clap-rs/clap)
-	- [tui-rs, library to build rich terminal user interfaces and dashboards.](https://github.com/fdehau/tui-rs)
-	- [Cursive, a TUI (Text User Interface) library for rust.](https://github.com/gyscos/Cursive)
-	- [Termion,manipulation terminals.](https://github.com/redox-os/termion)
-	- [Crossterm, pure-rust, terminal manipulation](https://github.com/crossterm-rs/crossterm)
-	- [pancurses, a curses library for Rust](https://github.com/ihalila/pancurses) 
+  - [StructOpt, parses command line arguments by defining a struct](https://crates.io/crates/structopt)
+  - [Clap, Command Line Argument Parser for Rust](https://github.com/clap-rs/clap)
+  - [tui-rs, library to build rich terminal user interfaces and dashboards.](https://github.com/fdehau/tui-rs)
+  - [Cursive, a TUI (Text User Interface) library for rust.](https://github.com/gyscos/Cursive)
+  - [Termion,manipulation terminals.](https://github.com/redox-os/termion)
+  - [Crossterm, pure-rust, terminal manipulation](https://github.com/crossterm-rs/crossterm)
+  - [pancurses, a curses library for Rust](https://github.com/ihalila/pancurses)
 
 ## Web
+
 - [Rust web framework list and comparison](https://github.com/flosse/rust-web-framework-comparison)
 - [**Book**-Zero to Production in Rust](https://www.zero2prod.com/index.html?country=Algeria&discount_code=AF60) [Repo](https://github.com/LukeMathWalker/zero-to-production)
 - [**Book**-Black Hat Rust](https://kerkour.com/black-hat-rust)
@@ -366,15 +409,17 @@ Choose topics that interest you and study them while going through the curriculu
 - [Build a Smart Bookmarking Tool with Rust and Rocket and Heruko](https://developers.facebook.com/blog/post/2020/06/03/build-smart-bookmarking-tool-rust-rocket/)
 
 ## Games
+
 - [Learning Rust by Coding a Game of Snake](https://snake.rustbridge.com/#learning-rust-by-coding-a-game-of-snake)
 - [Tic Tac Toe](https://minimax.dev/docs/ultimate/)
-- [Sokoban Game](https://sokoban.iolivia.me/c01-00-intro.html) 
+- [Sokoban Game](https://sokoban.iolivia.me/c01-00-intro.html)
 - [**Book**-Hands-on Rust: A hands-on guide to learning Rust by making games](https://pragprog.com/titles/hwrust/hands-on-rust/)
 - [**Book**-The ray tracer challenge](http://raytracerchallenge.com/)
 - [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/)
 - [Roguelike Tutorial in Rust + tcod](https://tomassedovic.github.io/roguelike-tutorial/)
 
 ## Web Assembly
+
 - [webassembly.org](https://webassembly.org/)
 - [Official WebAssembly Rust page](https://www.rust-lang.org/what/wasm)
 - [**Book**-WebAssembly Book](https://rustwasm.github.io/docs/book/)
@@ -394,6 +439,7 @@ Choose topics that interest you and study them while going through the curriculu
 - [Rust Raytracer compiled to Webassembly to run live in browser](https://www.reddit.com/r/rust/comments/s9yki0/rust_raytracer_compiled_to_webassembly_to_run/)
 
 ## Gui
+
 - [FLTK Rust gui tutorial: Basics](https://www.youtube.com/watch?v=ygP4egJtmzw)
 - [How I Built a Cross-Platform Desktop Application with Svelte, Redis, and Rust](https://css-tricks.com/how-i-built-a-cross-platform-desktop-application-with-svelte-redis-and-rust/)
 - [Druid](https://linebender.org/druid/)
@@ -402,19 +448,21 @@ Choose topics that interest you and study them while going through the curriculu
 - [**Book**-GUI development with Relm4](https://aaronerhardt.github.io/relm4-book/book/)
 - [7 GUI Tasks](https://eugenkiss.github.io/7guis/tasks/)
 
-## Mobile Apps 
+## Mobile Apps
+
 - [Flutter+Rust](https://github.com/shekohex/flutterust)
 - [Using WebAssembly in Flutter Web](https://gpalma.pt/blog/flutter-web-web-assembly/)
-- [Write UI using Flutter, a cross-platform hot-reload high-performance toolkit, seamlessly with Rust](https://www.reddit.com/r/rust/comments/swrbyv/write_ui_using_flutter_a_crossplatform_hotreload/) 
+- [Write UI using Flutter, a cross-platform hot-reload high-performance toolkit, seamlessly with Rust](https://www.reddit.com/r/rust/comments/swrbyv/write_ui_using_flutter_a_crossplatform_hotreload/)
 - [rust-on-mobile](https://github.com/mtak-/rust-on-mobile)
 - [Rust on iOS](https://medium.com/visly/rust-on-ios-39f799b3c1dd)
 - [Building and Deploying a Rust library on Android](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-21-rust-on-android.html)
 - [Building and Deploying a Rust library on iOS](https://mozilla.github.io/firefox-browser-architecture/experiments/2017-09-06-rust-on-ios.html)
 
 ## Blockchain
+
 - [**Book**-Blockchain For Rust Developers](https://www.amazon.com/Blockchain-Rust-Developers-application-Hands/dp/B0874JFXSD/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1592558073&sr=8-1)
 - [Awesome Blockchain Rust](https://github.com/rust-in-blockchain/awesome-blockchain-rust)
-- [Rust in Blockchain](https://rustinblockchain.org/) 
+- [Rust in Blockchain](https://rustinblockchain.org/)
 - [Where is the best place to learn Rust in context of Crypto/Blockchain](https://www.reddit.com/r/rust/comments/mz5m9p/where_is_the_best_place_to_learn_rust_in_context/)
 
 # Rust Handy references
@@ -424,6 +472,7 @@ These are useful resources but are not meant to be read cover to cover. Instead,
 ### Use While Developing your Project
 
 - **Cheat Sheets:**
+
   - [Rust: How to create an awesome GitHub project!](https://www.youtube.com/watch?v=meAz2RQMHvM)
   - [Rust Cheat Sheet](https://cheats.rs/)
   - [Another Cheat sheet](https://www.breakdown-notes.com/make/load/rust_cs_canvas)
@@ -433,7 +482,11 @@ These are useful resources but are not meant to be read cover to cover. Instead,
   - [Rust Ownership Cheat sheet](https://github.com/kmcallister/rustic-symmetries/blob/master/README.md#rustic-symmetries)
   - [Iterator Cheat Sheet](https://danielkeep.github.io/itercheat_baked.html)
   - [Rust Container Cheat Sheet](https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p)
+  - [Learn Rust with a few minutes to spare](https://learnxinyminutes.com/docs/rust/)
+  - [Do the same things in Rust!](https://programming-idioms.org/cheatsheet/Python/Rust)
+  - [Notes for small Rust snippets](https://www.rustnote.com/rustnote.html)
 - **References:**
+
   - [**Book**-Rust for Rustaceans](https://nostarch.com/rust-rustaceans) -   Covers how to design reliable, idiomatic, and ergonomic Rust programs based on best principles.
   - [**Book**-Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
     - [Official Ressources](https://www.rust-lang.org/learn)
@@ -478,14 +531,14 @@ These are useful resources but are not meant to be read cover to cover. Instead,
     - [Systems with JT: Async/await in Rust](https://www.youtube.com/watch?v=FNcXf-4CLH0)
     - [The Node Experiment - Exploring Async Basics with Rust](https://cfsamson.github.io/book-exploring-async-basics/)
     - [Tokio Tutorial](https://tokio.rs/tokio/tutorial) - event-driven, non-blocking I/O
-  - **FFI:** 
+  - **FFI:**
     - [I C and .so does Rust](https://prateeknischal.github.io/posts/i-c-and-so-does-rust/)
     - [The Rust FFI Guide - using unsafe for fun and profit](https://michael-f-bryan.github.io/rust-ffi-guide/) - Michael-F-Brya
     - [Writing fast and safe native Node.js modules with Rust](https://blog.risingstack.com/node-js-native-modules-with-rust/) - Peter Czibik
     - [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/)
     - [The (unofficial) Rust FFI Guide](https://michael-f-bryan.github.io/rust-ffi-guide/) - FFI in depth
-
 - **Guidelines and Idioms:**
+
   - [Rust Cook Book](https://rust-lang-nursery.github.io/rust-cookbook/) a collection of simple examples that demonstrate good practices to accomplish common programming tasks.
   - [Rust API guidelines](https://rust-lang.github.io/api-guidelines/) An extensive list of recommendations for idiomatic Rust APIs.
   - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)  A catalogue of design patterns in Rust.
@@ -505,12 +558,14 @@ These are useful resources but are not meant to be read cover to cover. Instead,
   - [Possible Rust](https://www.possiblerust.com/) A blog for intermediate Rust programmers exploring real-world code and design patterns.
   - [Hexagonal architecture in Rust](https://alexis-lozano.com/hexagonal-architecture-in-rust-1/)
 - **Debugging:**
+
   - [explaine.rs](https://jrvidal.github.io/explaine.rs/)
   - [Compiler Explorer](https://rust.godbolt.org/)
   - [Pernos](https://pernos.co/)  [demo](https://www.youtube.com/watch?v=uTc7KCBbVFI&t=162s)
   - [Debugging a segfault in my Rust program](https://jvns.ca/blog/2017/12/23/segfault-debugging/)
   - [Profiling Rust applications on Linux](http://llogiq.github.io/2015/07/15/profiling.html)
 - **Tools:**
+
   - [Awesome Rust: Development Tools](https://github.com/rust-unofficial/awesome-rust#development-tools)
   - [Awesome Rust: Libraries](https://github.com/rust-unofficial/awesome-rust#libraries)
   - [Caniuse.rs - Rust feature search](https://caniuse.rs/)
@@ -530,23 +585,26 @@ These are useful resources but are not meant to be read cover to cover. Instead,
   - [TP 103: Build a welcoming community](https://github.com/pingcap/talent-plan/blob/master/courses/tp103-open-source-community.md)
 
 # Projects, Workshops & Live Streams
+
 - [Projects-from-Scratch](https://github.com/AlgoryL/Projects-from-Scratch) Projects Ideas.
 - [Learning Parser Combinators With Rust](https://bodil.lol/parser-combinators/)
 - [**Blog**-Rust and CSV Parsing](http://blog.burntsushi.net/csv/)
 - [Learning Rust: Let's Build a Parser!](https://codeandbitters.com/lets-build-a-parser/)
-- [Why your first FizzBuzz implementation may not work](http://chrismorgan.info/blog/rust-fizzbuzz.html) 
+- [Why your first FizzBuzz implementation may not work](http://chrismorgan.info/blog/rust-fizzbuzz.html)
 - [Web browser from scratch in Rust](https://joshondesign.com/tags/browser)
 - [Implementing ArrayVec Using Const Generics](https://adventures.michaelfbryan.com/posts/const-arrayvec/)
 - Codebases:
   - [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) a line-oriented search tool.
+  - [Tealdeer (tldr)](https://github.com/dbrgn/tealdeer) a fast cli tool to learn basic uses for many commands
   - [GNU coreutils in Rust](https://github.com/uutils/coreutils)
   - [Awesome Rust: Applications](https://github.com/rust-unofficial/awesome-rust#applications)
 - Rewrite in Rust
-  - [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html) 
+  - [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html)
   - [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
   - [Projects Ideas](https://www.reddit.com/r/learnrust/comments/k3od5w/comment/ge6z7rx/?utm_source=share&utm_medium=web2x&context=3)
 
 # Blogs and Channels
+
 - [Awesome Rust Streaming](https://github.com/jamesmunns/awesome-rust-streaming)
 - [Hackr.io: most upvoted Rust ressources](https://hackr.io/tutorials/learn-rust?sort=upvotes)
 - [Morioh](https://morioh.com/topic/rust)
@@ -569,6 +627,7 @@ These are useful resources but are not meant to be read cover to cover. Instead,
 - [Gamozolabs](https://www.youtube.com/c/gamozolabs/playlists) Security researcher who writes everything in rust, primarily focused on fuzzing
 
 # Rust Community
+
 - [The Rust Programming Language Forum](https://users.rust-lang.org/)
 - [Stackoverflow Rust questions](https://stackoverflow.com/questions/tagged/rust)
 - [Rust Mentors](https://rustbeginners.github.io/awesome-rust-mentors/)
@@ -581,6 +640,7 @@ These are useful resources but are not meant to be read cover to cover. Instead,
 - [zulip chat](https://rust-lang.zulipchat.com/)
 
 # Crates and Libs
+
 - [Fuzz testing](https://github.com/rust-fuzz/afl.rs)
 - [the pest parser](https://pest.rs/book/) a library for writing plain-text parsers in Rust.
 - [awesomo /rust](https://github.com/lk-geimfari/awesomo/blob/master/languages/RUST.md)
@@ -588,12 +648,14 @@ These are useful resources but are not meant to be read cover to cover. Instead,
 - [Dyner](https://dyner.netlify.app/) experimental trait (_dyn_) objects in Rust
 
 # Jobs
+
 - [RustJobs](https://rustjobs.dev/)
 - [Companies that use Rust](https://www.rust-lang.org/production/users)
 
-
 # Sources
-These are some of the sources I used for the Rust parts of this curriculum. 
+
+These are some of the sources I used for the Rust parts of this curriculum.
+
 - [Rust Books](https://github.com/sger/RustBooks) (commit of Mar 17, 2022 )
 - [Awesome Rust, A curated list of Rust code and resources.](https://github.com/rust-unofficial/awesome-rust) (commit of Mar 22, 2022 )
 - [Idiomatic Rust](https://github.com/mre/idiomatic-rust) (commit of Mar 7, 2022)
