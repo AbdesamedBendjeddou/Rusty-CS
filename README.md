@@ -110,18 +110,12 @@ The below material assumes that you have already finished high school. If not, y
 ## Introduction
 
 **CS Part:** <br>
-If you have no programming background, start here. These two courses will introduce you to the world of Computer Science and give you solid fundamentals that you need to go through the curriculum and the Rust book. I would also suggest that you do some small projects with python for maximized learning.
-
+If you have no programming background, start here. These two courses will introduce you to the world of Computer Science and give you solid fundamentals that you need to go through the curriculum and the Rust book. I would also suggest that you do some small projects with python for maximized learning. Check these summeries and Get a sneak peak of general CS concepts from [here](https://www.youtube.com/watch?v=-uleG_Vecis) and [here](http://carlcheo.com/compsci).
 
 | Course name                                                                                                                                    | Associated Book                                                                                                                                                 | Other Resources                                                                                                                                                                 | Prerequisite |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | [Python for Everybody](https://www.py4e.com/)                                                                                                  | [Python for Everybody Book](https://www.py4e.com/book)                                                                                                          | [Coursera’s version](https://www.coursera.org/specializations/python)                                                                                                          | /            |
 | [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) | [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) | [OCW’s Version](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) | /            |
-
-###### Awesome summaries:
-
-[100 Computer Science Terms](https://www.youtube.com/watch?v=-uleG_Vecis)
-[CS in layman terminology](http://carlcheo.com/compsci)
 
 **Rust Part:** <br>
 After finishing the above courses, you should be able to read the book, in addition to the official book, another small book with a gentler introduction to some concepts is provided. And while you're at it, solve the exercises and questions below to help retain the knowledge.
@@ -129,18 +123,15 @@ There is no particular order to go through the materials except of course readin
 If you learn better by watching videos, you can also check the following Youtube series [Crust of Rust](https://www.youtube.com/watch?v=rAl-9HwD858&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa).
 
 - [**Book**-The Rust Programming Language Book](https://doc.rust-lang.org/book/) The offcial book of the language will give you an overview of the language from first principles.
-- [**Book**-A Gentle Introduction To Rust](https://stevedonovan.github.io/rust-gentle-intro)
-- [**Book**-Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/) A community driven collection of example code which follow Rust best practices.
+- [**Book**-Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) A breakdown of the rust language in the most plain english possible
 - [**Track**-Rustlings](https://github.com/rust-lang/rustlings/)
-- [**Book**-Rust By Practice](https://practice.rs/why-exercise.html)
-- [**Book**-Rust Practise Questions](https://sn99.github.io/rust-practise-questions/) (sic)
-- [Book-Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) A breakdown of the rust language in the most plain english possible
+- [**Book**-Rust By Practice](https://practice.rs/)
 - [Rust Quiz](https://dtolnay.github.io/rust-quiz/14)
+- [**Book**-Rust Practise Questions](https://sn99.github.io/rust-practise-questions/) (sic)
 
 ## Systems Fundamentals
 
 The best course to learn how computers work and how to build one. This course will prepare you for the upcoming courses about computer architectures and operating systems.
-
 
 | Course name                                                                                             | Associated Book                                                                                | Other Resources                                | Prerequisite                                         |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------ |
@@ -498,6 +489,7 @@ These are useful resources but are not meant to be read cover to cover. Instead,
       - [Clippy](https://github.com/rust-lang/rust-clippy)
       - [Compiler Error Index](https://doc.rust-lang.org/error-index.html)
       - [The Rust Reference](https://doc.rust-lang.org/reference/introduction.html)
+      - [**Book**-Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/) A community driven collection of example code which follow Rust best practices.
   - [There are no mutable parameters in Rust](https://www.snoyman.com/blog/2020/05/no-mutable-parameters-in-rust/)
   - [Rust Module System](https://www.sheshbabu.com/posts/rust-module-system/)
   - [Mixing matching, mutation, and moves in Rust](https://blog.rust-lang.org/2015/04/17/Enums-match-mutation-and-moves.html)
