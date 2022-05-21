@@ -514,7 +514,7 @@ A better or detailed explanations of some Rust language features.
   - [Hands-On Concurrency with Rust](https://www.amazon.com/Hands-Concurrency-Rust-Confidently-memory-safe/dp/1788399978)
   - [Futures Explained in 200 Lines of Rust](https://cfsamson.github.io/books-futures-explained/)
   - [Tokio Tutorial](https://tokio.rs/tokio/tutorial) - event-driven, non-blocking I/O
-  - [Why Rust mutexes look like they do]([Why Rust mutexes look like they do - Cliffle](https://cliffle.com/blog/rust-mutexes/))
+  - [Why Rust mutexes look like they do](https://cliffle.com/blog/rust-mutexes/))
 - **FFI:**
   - [I C and .so does Rust](https://prateeknischal.github.io/posts/i-c-and-so-does-rust/)
   - [The Rust FFI Guide - using unsafe for fun and profit](https://michael-f-bryan.github.io/rust-ffi-guide/) - Michael-F-Brya
