@@ -266,7 +266,7 @@ So what happens when a program runs?
 
 | Course name                                                                                   | Associated Book                                                                 | Other Resources                                                                                                                                    | Prerequisite                                                   |
 | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [Introduction to Operating Systems](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/) | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | - Choose Unix kernel[book](https://pastebin.com/TBLSuvra) <br>- Do the Labs [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) | Introduction to Computer Systems<br> or Computation Structures |
+| [Introduction to Operating Systems](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/) | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | - Choose Unix kernel [book](https://pastebin.com/TBLSuvra) <br>- Do the Labs [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) | Introduction to Computer Systems<br> or Computation Structures |
 
 **Rust part:**<br>
 
