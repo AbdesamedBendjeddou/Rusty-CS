@@ -138,7 +138,7 @@ The best course to learn how computers work and how to build one. This course wi
 | [Build a Modern Computer from First Principles Part 2](https://www.coursera.org/learn/nand2tetris2)     | [The Elements of Computing Systems](https://mitpress.mit.edu/books/elements-computing-systems) | [Course website](https://www.nand2tetris.org/) | Build a Modern Computer from First Principles Part 1 |
 
 **Rust Part:** <br>
-These ressources are not related to this section, but it's included here to keep your memory sharp and to be able to switch between doing the course and practicing Rust do you don't get bored.
+These ressources are not related to this section, but it's included here to keep your memory sharp and to be able to switch between doing the course and practicing Rust so you don't get bored.
 
 - [**Track**-Rust By Practice](https://practice.rs/)
 - [**Project**-PNGme](https://picklenerd.github.io/pngme_book/introduction.html) - An Intermediate Rust Project.
@@ -157,7 +157,7 @@ This course covers the most important parts of mathematics relevant to CS, which
 
 **Rust Part:** <br>
 
-These ressources are not related to this section, but it's included here to keep your memory sharp and to be able to switch between doing the course and practicing Rust do you don't get bored.
+These ressources are not related to this section, but it's included here to keep your memory sharp and to be able to switch between doing the course and practicing Rust so you don't get bored.
 
 - [**Track**-Rust Exercism](https://exercism.org/tracks/rust)
 - [**Track**-Rust Practise Questions](https://sn99.github.io/rust-practise-questions/)
