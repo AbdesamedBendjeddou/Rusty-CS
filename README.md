@@ -559,8 +559,7 @@ A better or detailed explanations of some Rust language features.
   - [Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/01_introduction.html)
   - [stdx:  Learn these crates first as an extension to std](https://github.com/brson/stdx)
   - [Common Newbie Mistakes and Bad Practices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits)
-  - [Tips for Faster Rust Compile Times](https://endler.dev/2020/rust-compile-times/)
-  - [Compile Time Feature Flags in Rust](https://www.worthe-it.co.za/programming/2018/11/18/compile-time-feature-flags-in-rust.html)
+  
   - [Are out parameters idiomatic in Rust?](https://steveklabnik.com/writing/are-out-parameters-idiomatic-in-rust) - Discusses the pros and cons of functions returning a value vs. modifying a parameter in-place.
   - [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)  Discusses different ways to solve a popular coding puzzle, "balanced brackets", in Rust.
   - [Hexagonal architecture in Rust](https://alexis-lozano.com/hexagonal-architecture-in-rust-1/)
@@ -572,6 +571,8 @@ A better or detailed explanations of some Rust language features.
   - [Profiling Rust applications on Linux](http://llogiq.github.io/2015/07/15/profiling.html)
 - **Compiling**
   - [How to speed up the Rust compiler in April 2022](https://www.reddit.com/r/rust/comments/u2deqd/how_to_speed_up_the_rust_compiler_in_april_2022/)
+  - [Tips for Faster Rust Compile Times](https://endler.dev/2020/rust-compile-times/)
+  - [Compile Time Feature Flags in Rust](https://www.worthe-it.co.za/programming/2018/11/18/compile-time-feature-flags-in-rust.html)
 - **Benchmark:**
   - [Benchmarking programs in Rust](https://stackoverflow.com/questions/13322479/benchmarking-programs-in-rust)
   - [Criterion.rs](https://github.com/bheisler/criterion.rs) Benchmark
