@@ -264,8 +264,8 @@ solve more advanced problems from the challenges websites.
 **CS part:**<br>
 So what happens when a program runs?
 
-| Course name                                                                                   | Associated Book                                                                 | Other Resources                                                                                                                                    | Prerequisite                                                   |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Course name                                                                                   | Associated Book                                                                 | Other Resources                                                                                                                                     | Prerequisite                                                   |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | [Introduction to Operating Systems](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/) | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | - Choose Unix kernel [book](https://pastebin.com/TBLSuvra) <br>- Do the Labs [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) | Introduction to Computer Systems<br> or Computation Structures |
 
 **Rust part:**<br>
@@ -559,7 +559,6 @@ A better or detailed explanations of some Rust language features.
   - [Secure Rust Guidelines](https://anssi-fr.github.io/rust-guide/01_introduction.html)
   - [stdx:  Learn these crates first as an extension to std](https://github.com/brson/stdx)
   - [Common Newbie Mistakes and Bad Practices in Rust: Bad Habits](https://adventures.michaelfbryan.com/posts/rust-best-practices/bad-habits)
-  
   - [Are out parameters idiomatic in Rust?](https://steveklabnik.com/writing/are-out-parameters-idiomatic-in-rust) - Discusses the pros and cons of functions returning a value vs. modifying a parameter in-place.
   - [Aiming for idiomatic Rust](https://shane-o.dev/blog/aiming-for-idiomatic-rust)  Discusses different ways to solve a popular coding puzzle, "balanced brackets", in Rust.
   - [Hexagonal architecture in Rust](https://alexis-lozano.com/hexagonal-architecture-in-rust-1/)
