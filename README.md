@@ -31,11 +31,11 @@ let RustyCS = CS.iter().zip(Rust.iter())
 - [Curriculum](#curriculum)
   - [Prerequisites](#prerequisites)
   - [Introduction](#introduction)
+  - [Programming Languages 1](#programming-languages-1)
+  - [Programming](#programming)
   - [Systems Fundamentals](#systems-fundamentals)
   - [Discrete Structures](#discrete-structures)
   - [Algorithms 1](#algorithms-1)
-  - [Programming](#programming)
-  - [Programming Languages 1](#programming-languages-1)
   - [Architecture and Organization](#architecture-and-organization)
   - [Networking and Communications](#networking-and-communications)
   - [Information Management](#information-management)
@@ -109,23 +109,53 @@ The below material assumes that you have already finished high school. If not, y
 ## Introduction
 
 **CS Part:** <br>
-If you have no programming background, start here. These two courses will introduce you to the world of Computer Science and give you solid fundamentals that you need to go through the curriculum and the Rust book. I would also suggest that you do some small projects with python for maximized learning. Check these summeries and Get a sneak peak of general CS concepts from [here](https://www.youtube.com/watch?v=-uleG_Vecis) and [here](http://carlcheo.com/compsci).
+Start here. These two courses will teach you general ways of thinking about programming and how to write programs even if you have experience. the knowlodge that you will learn here will serve you forever and you will use them in literally everything.
+Check these summeries to get a sneak peak of what is coming ahead in your CS journey [here](https://www.youtube.com/watch?v=-uleG_Vecis) and [here](http://carlcheo.com/compsci).
 
-| Course name                                                                                                                                    | Associated Book                                                                                                                                                 | Other Resources                                                                                                                                                                | Prerequisite |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
-| [Python for Everybody](https://www.py4e.com/)                                                                                                  | [Python for Everybody Book](https://www.py4e.com/book)                                                                                                          | [Coursera’s version](https://www.coursera.org/specializations/python)                                                                                                          | /            |
-| [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) | [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) | [OCW’s Version](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm) | /            |
+| Course name                                                                             | Associated Book                                                                   | Other Resources                      | Prerequisite            |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------ | ----------------------- |
+| [How to Code Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x)   | [How to Design Programs](https://htdp.org/)                                       | /                                    | /                       |
+| [How to Code Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x) | [How to Design Programs](https://htdp.org/)                                       | /                                    | How to Code Simple Data |
 
 **Rust Part:** <br>
 After finishing the above courses, you should be able to read the book, in addition to the official book, another small book with a gentler introduction to some concepts is provided. And while you're at it, solve the exercises and questions below to help retain the knowledge.
-There is no particular order to go through the materials except of course reading the relevant chapter from the book before solving its exercises.
-If you learn better by watching videos, you can also check the following Youtube series [Crust of Rust](https://www.youtube.com/watch?v=rAl-9HwD858&list=PLqbS7AVVErFiWDOAVrPt7aYmnuuOLYvOa).
+There is no particular order to go through the materials except of course reading the book.
 
 - [**Book**-The Rust Programming Language Book](https://doc.rust-lang.org/book/) The offcial book of the language will give you an overview of the language from first principles.
 - [**Book**-Easy Rust](https://dhghomon.github.io/easy_rust/Chapter_0.html) A breakdown of the rust language in the most plain english possible
 - [**Track**-Rustlings](https://github.com/rust-lang/rustlings/)
-- [Rust Quiz](https://dtolnay.github.io/rust-quiz/14)
+- [**Track**-Rust By Practice](https://practice.rs/)
+- [**Project**-PNGme](https://picklenerd.github.io/pngme_book/introduction.html) - An Intermediate Rust Project.
+- [**Project**-Triangle From Scratch](https://rust-tutorials.github.io/triangle-from-scratch/) - draw a triangle using Win32, but no external crates
 
+## Programming Languages 1
+
+In addition to learning programming languages, learning about  programming languages will benefit you tremendously.
+
+| Course name                                                                                 | Associated Book | Other Resources                                                          | Prerequisite                 |
+| ------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------ | ---------------------------- |
+| [Programming Languages Part A](https://www.coursera.org/learn/programming-languages)        | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | How to Code Complex Data     |
+| [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
+| [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
+
+## Programming
+
+**CS part:**<br>
+The first course is based on the classic book SICP, from teachyourselfcs.com: SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying. The second course will teach you the general tools that you may need or make it easier for you to create programs like the shell and Git.
+
+| Course name                                                                             | Associated Book                                                                   | Other Resources                      | Prerequisite            |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------ | ----------------------- |
+| [Berkeley 61A](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E)       | [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp) | [Course Website](https://cs61a.org/) | /                       |
+| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)             | /                                                                                 | /                                    | /                       |
+
+**Rust part:**<br>
+A bunch of small projects in Rust.
+
+- [**Track**-Rust Exercism](https://exercism.org/tracks/rust)
+- [**Track**-Rust Practise Questions](https://sn99.github.io/rust-practise-questions/)
+- [**Project**-Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust/) - A test-driven workshop to learn Rust building your own JIRA clone!
+- [**Book**-Rust Programming by Example](https://www.amazon.com/Rust-Programming-Example-concurrent-applications/dp/1788390636)
+- [**Book**-Creative Projects for Rust Programmers](https://www.packtpub.com/programming/creative-projects-for-rust-programmers)
 ## Systems Fundamentals
 
 **CS Part:** <br>
@@ -140,9 +170,7 @@ The best course to learn how computers work and how to build one. This course wi
 **Rust Part:** <br>
 These resources are not related to this section, but they are included here to keep your memory sharp and to be able to switch between doing the course and practicing Rust so you don't get bored.
 
-- [**Track**-Rust By Practice](https://practice.rs/)
-- [**Project**-PNGme](https://picklenerd.github.io/pngme_book/introduction.html) - An Intermediate Rust Project.
-- [**Project**-Triangle From Scratch](https://rust-tutorials.github.io/triangle-from-scratch/) - draw a triangle using Win32, but no external crates
+- [Rust Quiz](https://dtolnay.github.io/rust-quiz/14)
 
 ## Discrete Structures
 
@@ -159,9 +187,7 @@ This course covers the most important parts of mathematics relevant to CS, which
 
 These resources are not related to this section, but they are included here to keep your memory sharp and to be able to switch between doing the course and practicing Rust so you don't get bored.
 
-- [**Track**-Rust Exercism](https://exercism.org/tracks/rust)
-- [**Track**-Rust Practise Questions](https://sn99.github.io/rust-practise-questions/)
-- [**Project**-Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust/) - A test-driven workshop to learn Rust building your own JIRA clone!
+- [**Project**-Hecto](https://www.philippflenker.com/hecto/) - Build your own text editor in Rust.
 
 ## Algorithms 1
 
@@ -170,7 +196,7 @@ Familiarity with common algorithms and data structures is one of the most empowe
 
 | Course name                                                                                                                                                | Associated Book                                                                                                 | Other Resources                                                                                  | Prerequisite                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
-| [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | [VisuAlgo](https://visualgo.net/en) visualizing data structures and algorithms through animation | - Introduction to Computer Science and Programming using Python.<br> - Mathematics for Computer Science. |
+| [Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | [VisuAlgo](https://visualgo.net/en) visualizing data structures and algorithms through animation | - Mathematics for Computer Science. |
 
 **Rust part:**<br>
 Solving problems with the language that you are trying to learn is the best way to learn it. Go ahead and solve as most as you can. Check more problems at leetcode.com, Hackerrank, Codewars, etc...
@@ -182,39 +208,9 @@ Solving problems with the language that you are trying to learn is the best way 
 - [**Repo**-Algorithm Cookbook in Rust](https://github.com/EbTech/rust-algorithms)
 - [**Book**-Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html)
 
-## Programming
-
-**CS part:**<br>
-These courses teach general ways of thinking and form neural pathways in your brain that will serve you forever and you will use them in literally everything. (quoting from [spamegg](https://github.com/spamegg1/reviews#-how-to-code-1--2) cause I couldn't find any better motivation).
-And from teachyourselfcs.com about SICP :SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying. while the last course will help you understand the tools that you need to make it easier for you to create programs like Git.
-
-| Course name                                                                             | Associated Book                                                                   | Other Resources                      | Prerequisite            |
-| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------ | ----------------------- |
-| [How to Code Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x)   | [How to Design Programs](https://htdp.org/)                                       | /                                    | /                       |
-| [How to Code Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x) | [How to Design Programs](https://htdp.org/)                                       | /                                    | How to Code Simple Data |
-| [Berkeley 61A](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E)       | [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp) | [Course Website](https://cs61a.org/) | /                       |
-| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)             | /                                                                                 | /                                    | /                       |
-
-**Rust part:**<br>
-A bunch of small projects in Rust.
-
-- [**Book**-Rust Programming by Example](https://www.amazon.com/Rust-Programming-Example-concurrent-applications/dp/1788390636)
-- [**Book**-Creative Projects for Rust Programmers](https://www.packtpub.com/programming/creative-projects-for-rust-programmers)
-- [**Project**-Hecto](https://www.philippflenker.com/hecto/) - Build your own text editor in Rust.
-
-## Programming Languages 1
-
-You can't really be a good programmer without knowing how programming languages work.
-
-| Course name                                                                                 | Associated Book | Other Resources                                                          | Prerequisite                 |
-| ------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------ | ---------------------------- |
-| [Programming Languages Part A](https://www.coursera.org/learn/programming-languages)        | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | How to Code Complex Data     |
-| [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
-| [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
-
 ## Architecture and Organization
 
-Learning what is going on under the hood of a computer system is what makes the difference between a programmer and a good programmer. Understand computer systems will let you write faster, more efficient and more reliable software. Both courses cover the same topics. I couldn't choose which one to put in the curriculum so I did put them both, you only need to take one.
+Learning what is going on under the hood of a computer system is what makes the difference between a programmer and a good programmer. Understand computer systems will let you write faster, more efficient and more reliable software. Both courses cover similar topics. I couldn't choose which one to put in the curriculum so I did put them both, you only need to take one.
 
 | Course name                                                                                                                                          | Associated Book                                                          | Other Resources | Prerequisite                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | --------------- | ---------------------------------------------------- |
