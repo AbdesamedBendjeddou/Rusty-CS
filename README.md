@@ -109,7 +109,7 @@ The below material assumes that you have already finished high school. If not, y
 ## Introduction
 
 **CS Part:** <br>
-Start here. These two courses will teach you general ways of thinking about programming and how to write programs even if you have experience. the knowlodge that you will learn here will serve you forever and you will use them in literally everything.
+Start here. These two courses will teach you general ways of thinking about programming and how to write programs even if you have experience. the knowledge that you will learn here will serve you forever and you will use them in literally everything.
 Check these summeries to get a sneak peak of what is coming ahead in your CS journey [here](https://www.youtube.com/watch?v=-uleG_Vecis) and [here](http://carlcheo.com/compsci).
 
 | Course name                                                                             | Associated Book                                                                   | Other Resources                      | Prerequisite            |
