@@ -117,6 +117,16 @@ Check these summeries to get a sneak peak of what is coming ahead in your CS jou
 | [How to Code Simple Data](https://www.edx.org/course/how-code-simple-data-ubcx-htc1x)   | [How to Design Programs](https://htdp.org/)                                       | /                                    | /                       |
 | [How to Code Complex Data](https://www.edx.org/course/how-code-complex-data-ubcx-htc2x) | [How to Design Programs](https://htdp.org/)                                       | /                                    | How to Code Simple Data |
 
+## Programming Languages 1
+
+In addition to learning programming languages, learning about  programming languages will benefit you tremendously.
+
+| Course name                                                                                 | Associated Book | Other Resources                                                          | Prerequisite                 |
+| ------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------ | ---------------------------- |
+| [Programming Languages Part A](https://www.coursera.org/learn/programming-languages)        | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | How to Code Complex Data     |
+| [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
+| [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
+
 **Rust Part:** <br>
 After finishing the above courses, you should be able to read the book, in addition to the official book, another small book with a gentler introduction to some concepts is provided. And while you're at it, solve the exercises and questions below to help retain the knowledge.
 There is no particular order to go through the materials except of course reading the book.
@@ -127,16 +137,6 @@ There is no particular order to go through the materials except of course readin
 - [**Track**-Rust By Practice](https://practice.rs/)
 - [**Project**-PNGme](https://picklenerd.github.io/pngme_book/introduction.html) - An Intermediate Rust Project.
 - [**Project**-Triangle From Scratch](https://rust-tutorials.github.io/triangle-from-scratch/) - draw a triangle using Win32, but no external crates
-
-## Programming Languages 1
-
-In addition to learning programming languages, learning about  programming languages will benefit you tremendously.
-
-| Course name                                                                                 | Associated Book | Other Resources                                                          | Prerequisite                 |
-| ------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------ | ---------------------------- |
-| [Programming Languages Part A](https://www.coursera.org/learn/programming-languages)        | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | How to Code Complex Data     |
-| [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
-| [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
 
 ## Programming
 
