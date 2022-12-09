@@ -33,7 +33,7 @@ let RustyCS = CS.iter().zip(Rust.iter())
   - [Core Section](#core-section)
     - [Introduction](#introduction)
     - [Programming Languages 1](#programming-languages-1)
-    - [Programming](#programming)
+    - [CS Tools](#cs-tools)
     - [Systems Fundamentals](#systems-fundamentals)
     - [Discrete Structures](#discrete-structures)
     - [Algorithms 1](#algorithms-1)
@@ -145,14 +145,13 @@ In addition to learning programming languages, learning about  programming langu
 | [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
 | [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
 
-### Programming
+### CS Tools
 
 **CS part:**<br>
-The first course is based on the classic book SICP, from teachyourselfcs.com: SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying. The second course will teach you the general tools that you may need or make it easier for you to create programs like the shell and Git.
+This course will teach you the general tools that you may need and make it easier for you to create programs like the shell and Git.
 
 | Course name                                                                             | Associated Book                                                                   | Other Resources                      | Prerequisite            |
 | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------ | ----------------------- |
-| [Berkeley 61A](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E)       | [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp) | [Course Website](https://cs61a.org/) | /                       |
 | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)             | /                                                                                 | /                                    | /                       |
 
 **Rust part:**<br>
