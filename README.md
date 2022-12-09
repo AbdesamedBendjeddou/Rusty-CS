@@ -106,10 +106,13 @@ Although this was an original idea, I consider The [OSSU](https://github.com/oss
 
 The below material assumes that you have already finished high school. If not, you can study the needed math and physics course at [Khan Academy](https://www.khanacademy.org/). Additionally, some courses require Calculus as a prerequisite. You can either go through the courses and learn the required calculus part when needed or take a complete calculus course such as the one on [Khan Academy](https://www.khanacademy.org/) or [MIT-Open Learning Library](https://openlearning.mit.edu/courses-programs/open-learning-library?f%5B0%5D=open_moocs_departments%3A29).
 
+Additionally, the curriculum starts with How to Code courses as introductory courses. These courses may be somewhat challenging. Initially, the curriculum suggested starting with [Python for Everybody](https://www.py4e.com/) but later removed to reduce the number of introductory materials, and the idea of learning python where comers expect to learn Rust may be unappealing to most. However, feel free to take it if you struggle with these courses. It's a good starting point for those who never wrote a line of code before.
+
 ## Introduction
 
 **CS Part:** <br>
 Start here. These two courses will teach you general ways of thinking about programming and how to write programs even if you have experience. the knowledge that you will learn here will serve you forever and you will use them in literally everything.
+
 Check these summeries to get a sneak peak of what is coming ahead in your CS journey [here](https://www.youtube.com/watch?v=-uleG_Vecis) and [here](http://carlcheo.com/compsci).
 
 | Course name                                                                             | Associated Book                                                                   | Other Resources                      | Prerequisite            |
