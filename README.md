@@ -22,33 +22,34 @@ let RustyCS = CS.iter().zip(Rust.iter())
 # Contents
 
 - [Contents](#contents)
-- [Why learn Computer Science](#why-learn-computer-science)
-- [Why learn Rust](#why-learn-rust)
-- [Why this curriculum](#why-this-curriculum)
-- [How to use](#how-to-use)
+- [Why Learn Computer Science](#why-learn-computer-science)
+- [Why Learn Rust](#why-learn-rust)
+- [Why This Curriculum](#why-this-curriculum)
+- [How To Use](#how-to-use)
 - [Contribution](#contribution)
 - [Acknowledgment](#acknowledgment)
 - [Curriculum](#curriculum)
   - [Prerequisites](#prerequisites)
-  - [Introduction](#introduction)
-  - [Programming Languages 1](#programming-languages-1)
-  - [Programming](#programming)
-  - [Systems Fundamentals](#systems-fundamentals)
-  - [Discrete Structures](#discrete-structures)
-  - [Algorithms 1](#algorithms-1)
-  - [Architecture and Organization](#architecture-and-organization)
-  - [Networking and Communications](#networking-and-communications)
-  - [Information Management](#information-management)
-  - [Algorithms 2](#algorithms-2)
-  - [Operating Systems](#operating-systems)
-  - [Distributed Computing](#distributed-computing)
-  - [Compilers and Interpreters](#compilers-and-interpreters)
-  - [Information Assurance and Security](#information-assurance-and-security)
-  - [Software Engineering](#software-engineering)
-  - [Mathematics](#mathematics)
-  - [Intelligent Systems](#intelligent-systems)
-  - [Programming Languages 2](#programming-languages-2)
-  - [Extra](#extra)
+  - [Core Section](#core-section)
+    - [Introduction](#introduction)
+    - [Programming Languages 1](#programming-languages-1)
+    - [Programming](#programming)
+    - [Systems Fundamentals](#systems-fundamentals)
+    - [Discrete Structures](#discrete-structures)
+    - [Algorithms 1](#algorithms-1)
+    - [Architecture and Organization](#architecture-and-organization)
+    - [Networking and Communications](#networking-and-communications)
+    - [Information Management](#information-management)
+  - [Advanced Section](#advanced-section)
+    - [Algorithms 2](#algorithms-2)
+    - [Operating Systems](#operating-systems)
+    - [Distributed Computing](#distributed-computing)
+    - [Compilers and Interpreters](#compilers-and-interpreters)
+    - [Information Assurance and Security](#information-assurance-and-security)
+    - [Software Engineering](#software-engineering)
+    - [Mathematics](#mathematics)
+    - [Intelligent Systems](#intelligent-systems)
+    - [Programming Languages 2](#programming-languages-2)
 - [What else I can do with Rust?](#what-else-i-can-do-with-rust)
   - [CLI](#cli)
   - [Web](#web)
@@ -61,36 +62,37 @@ let RustyCS = CS.iter().zip(Rust.iter())
   - [Rust language features](#rust-language-features)
   - [Use While Developing your Project](#use-while-developing-your-project)
   - [Use to finalize your Project](#use-to-finalize-your-project)
-- [Extra Projects, Workshops,Guides, & Live Streams](#extra-projects-workshopsguides--live-streams)
+- [Extra Projects, Workshops,Guides, \& Live Streams](#extra-projects-workshopsguides--live-streams)
 - [Blogs and Channels](#blogs-and-channels)
 - [Rust Community](#rust-community)
 - [Jobs](#jobs)
 
-# Why learn Computer Science
+# Why Learn Computer Science
 
-from Teachyourselfcs.com:
+From Teachyourselfcs.com:
 
 > There are 2 types of software engineer: those who understand computer science well enough to do challenging, innovative work, and those who just get by because they’re familiar with a few high level tools.
 > Both call themselves software engineers, and both tend to earn similar salaries in their early careers. But Type 1 engineers progress toward more fulfilling and well-remunerated work over time, whether that’s valuable commercial work or breakthrough open-source projects, technical leadership or high-quality individual contributions.
 > Type 1 engineers find ways to learn computer science in depth, whether through conventional means or by relentlessly learning throughout their careers. Type 2 engineers typically stay at the surface, learning specific tools and technologies rather than their underlying foundations, only picking up new skills when the winds of technical fashion change.
 > Currently, the number of people entering the industry is rapidly increasing, while the number of CS grads is relatively static. This oversupply of Type 2 engineers is starting to reduce their employment opportunities and keep them out of the industry’s more fulfilling work. Whether you’re striving to become a Type 1 engineer or simply looking for more job security, learning computer science is the only reliable path.
 
-# Why learn Rust
+# Why Learn Rust
 
 There are a lot of reasons why one would want to learn Rust, but I'm going to mention just what I think are the killer features:
 Rust is a low-level programming language with direct access to hardware and memory, giving you the same power that C and C++ do with a greater focus on memory safety. Rust also makes it easier to write concurrent programs by preventing data races at compile time.
 Another great thing about Rust is that Rust is a low-level language with abstractions from higher-level languages without any performance sacrifices (zero-cost abstraction).
 Rust is general-purpose and can be used for almost anything from embedded systems, building operating systems to running on the browser via webassembly. The possibilities are endless.
 
-# Why this curriculum
+# Why This Curriculum
 
 At first, I made a CS curriculum based on the [ACM & IEEE Computer Science Curricula 2013 guidelines](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf) to make up for the low learning quality in the university where I study. Then I found out about Rust and fell in love with it. I wanted to jump in right away, but I had my CS courses to finish first, later I had this idea about spreading some Rust over my CS curriculum, this way I can learn them both at the same time, plus Rust being a system programming language it's almost imperative to have a strong CS background first before you can use it effectively.
 
-# How to use
+# How To Use
 
 This is a Computer Science curriculum first and foremost, designed to mimic an undergraduate Computer Science degree by providing high-quality learning content from top-notch universities adhering to the [ACM & IEEE Computer Science Curricula 2013 guidelines](https://www.acm.org/binaries/content/assets/education/cs2013_web_final.pdf). You may follow this curriculum even if you are not interested in learning Rust by skipping Rust sections.
 for those who are here to learn both CS and Rust, the way to go is to study the material in the given order. Each section contains the academic course(s) and the relevant Rust implementation(s). you start with the academic part and then move to the applicative Rust part if found.
-you don't have to study all the material, just what you are interested in and you think it may be useful for you of course in respect of the mentioned prerequisites.
+
+The curriculum is split into two major parts, core and advanced. The core section represents the required courses. We recommend doing all the courses in that section in order, as the ordering did take courses prerequisites into account. As For the advanced section, you don't have to study all the material. Take just what is relevant to the field you want to specialize at.
 
 # Contribution
 
@@ -108,7 +110,9 @@ The below material assumes that you have already finished high school. If not, y
 
 Additionally, the curriculum starts with How to Code courses as introductory courses. These courses may be somewhat challenging. Initially, the curriculum suggested starting with [Python for Everybody](https://www.py4e.com/) but later removed to reduce the number of introductory materials, and the idea of learning python where comers expect to learn Rust may be unappealing to most. However, feel free to take it if you struggle with these courses. It's a good starting point for those who never wrote a line of code before.
 
-## Introduction
+## Core Section
+
+### Introduction
 
 **CS Part:** <br>
 Start here. These two courses will teach you general ways of thinking about programming and how to write programs even if you have experience. the knowledge that you will learn here will serve you forever and you will use them in literally everything.
@@ -131,7 +135,7 @@ There is no particular order to go through the materials except of course readin
 - [**Project**-PNGme](https://picklenerd.github.io/pngme_book/introduction.html) - An Intermediate Rust Project.
 - [**Project**-Triangle From Scratch](https://rust-tutorials.github.io/triangle-from-scratch/) - draw a triangle using Win32, but no external crates
 
-## Programming Languages 1
+### Programming Languages 1
 
 In addition to learning programming languages, learning about  programming languages will benefit you tremendously.
 
@@ -141,7 +145,7 @@ In addition to learning programming languages, learning about  programming langu
 | [Programming Languages Part B](https://www.coursera.org/learn/programming-languages-part-b) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part A |
 | [Programming Languages Part C](https://www.coursera.org/learn/programming-languages-part-c) | /               | [Course website](https://courses.cs.washington.edu/courses/cse341/19sp/) | Programming Languages Part B |
 
-## Programming
+### Programming
 
 **CS part:**<br>
 The first course is based on the classic book SICP, from teachyourselfcs.com: SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying. The second course will teach you the general tools that you may need or make it easier for you to create programs like the shell and Git.
@@ -159,7 +163,7 @@ A bunch of small projects in Rust.
 - [**Project**-Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust/) - A test-driven workshop to learn Rust building your own JIRA clone!
 - [**Book**-Rust Programming by Example](https://www.amazon.com/Rust-Programming-Example-concurrent-applications/dp/1788390636)
 - [**Book**-Creative Projects for Rust Programmers](https://www.packtpub.com/programming/creative-projects-for-rust-programmers)
-## Systems Fundamentals
+### Systems Fundamentals
 
 **CS Part:** <br>
 
@@ -175,7 +179,7 @@ These resources are not related to this section, but they are included here to k
 
 - [Rust Quiz](https://dtolnay.github.io/rust-quiz/14)
 
-## Discrete Structures
+### Discrete Structures
 
 **CS Part:** <br>
 
@@ -192,7 +196,7 @@ These resources are not related to this section, but they are included here to k
 
 - [**Project**-Hecto](https://www.philippflenker.com/hecto/) - Build your own text editor in Rust.
 
-## Algorithms 1
+### Algorithms 1
 
 **CS part:**<br>
 Familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study. How to Solve it book will also be usefull here.
@@ -211,7 +215,7 @@ Solving problems with the language that you are trying to learn is the best way 
 - [**Repo**-Algorithm Cookbook in Rust](https://github.com/EbTech/rust-algorithms)
 - [**Book**-Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html)
 
-## Architecture and Organization
+### Architecture and Organization
 
 Learning what is going on under the hood of a computer system is what makes the difference between a programmer and a good programmer. Understand computer systems will let you write faster, more efficient and more reliable software. Both courses cover similar topics. I couldn't choose which one to put in the curriculum so I did put them both, you only need to take one.
 
@@ -220,7 +224,7 @@ Learning what is going on under the hood of a computer system is what makes the 
 | [Introduction to Computer Systems](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html)                                         | [Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/) | /               | Build a Modern Computer from First Principles Part 2 |
 | [Computation Structures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/index.htm) | /                                                                        | /               | Build a Modern Computer from First Principles Part 2 |
 
-## Networking and Communications
+### Networking and Communications
 
 **CS part:**<br>
 From teachyourselfcs.com: Given that so much of software engineering is on web servers and clients, one of the most immediately valuable areas of computer science is computer networking. Our self-taught students who methodically study networking find that they finally understand terms, concepts and protocols they’d been surrounded by for years.
@@ -237,7 +241,7 @@ A reimplementation of what you learned about networks in Rust. This will be of g
 - [**Project**-Building a DNS server in Rust](https://github.com/EmilHernvall/dnsguide)
 - [**Course**-Low-Level Academy](https://lowlvl.org/)
 
-## Information Management
+### Information Management
 
 It's necessary to learn how databases work. You will find yourself dealing with them in almost all fields of programming.
 
@@ -246,7 +250,9 @@ It's necessary to learn how databases work. You will find yourself dealing with 
 | [Berkeley CS186 Introduction to Database Systems](https://www.youtube.com/user/CS186Berkeley/videos) | /                                                                                                                                | -[cs186berkeley.net](https://cs186berkeley.net/) <br>- [Architecture of a Database System (Paper)](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) <br>- [redbook.io](http://www.redbook.io/) | Some Programming |
 | Data Modeling                                                                                        | [Data and Reality: A Timeless Perspective](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory)                                                                                                                         | /                |
 
-## Algorithms 2
+## Advanced Section
+
+### Algorithms 2
 
 **CS part:**<br>
 A more advanced treatment of algorithms.
@@ -258,7 +264,7 @@ A more advanced treatment of algorithms.
 **Rust part:**<br>
 solve more advanced problems from the challenges websites.
 
-## Operating Systems
+### Operating Systems
 
 **CS part:**<br>
 So what happens when a program runs?
@@ -276,7 +282,7 @@ So what happens when a program runs?
 - [**News Letter**-OSDev,Operating System Development in Rust](https://rust-osdev.com/)
 - [**Book**-intermezzOS OS](http://intermezzos.github.io/book/second-edition/)
 
-## Distributed Computing
+### Distributed Computing
 
 **CS part:**<br>
 “It’s typical now for even very small applications to run across multiple machines. Distributed systems is the study of how to reason about the trade-offs involved in doing so.”
@@ -290,7 +296,7 @@ So what happens when a program runs?
 - [**Book**-Async Raft](https://async-raft.github.io/async-raft/) - the Raft distributed consensus protocol in async Rust
 - [TIKV Training program in Distributed Systems](https://tikv.org/blog/talent-training/)  this course focuses on implementing important distributed algorithms, including the Raft consensus algorithm, and the Percolator distributed transaction protocol.
 
-## Compilers and Interpreters
+### Compilers and Interpreters
 
 “If you don't know how compilers work, then you don't know how computers work”. The first two courses cover the same topic, choose one.
 **CS part:**<br>
@@ -313,19 +319,19 @@ So what happens when a program runs?
 - [**Project**-Build a language VM](https://blog.subnetzero.io/post/building-language-vm-part-00/)
 - [Intro to the Architecture of LLVM](https://www.reddit.com/r/LLVM/comments/i7dy2a/intro_to_the_architecture_of_llvm/)
 
-## Information Assurance and Security
+### Information Assurance and Security
 
 ```rust
 todo()! //Inshallah
 ```
 
-## Software Engineering
+### Software Engineering
 
 ```rust
 todo()! //Inshallah
 ```
 
-## Mathematics
+### Mathematics
 
 Some recommended math courses, usefull specially for people want to specialize in machine learning.
 
@@ -334,7 +340,7 @@ Some recommended math courses, usefull specially for people want to specialize i
 | [Linear Algebra](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+18.06SC+2T2019/about) | [Introduction to Linear Algebra - Gilbert Strang](https://math.mit.edu/~gs/linearalgebra/) | [Essence of linear algebra](https://www.youtube.com/playlist?app=desktop&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | /            |
 | [Probability](https://projects.iq.harvard.edu/stat110/home)                                      | [Introduction to Probability 2nd ed - Joe Blitzstein](http://probabilitybook.net/)         | /                                                                                                                 | /            |
 
-## Intelligent Systems
+### Intelligent Systems
 
 **CS part:**<br>
 
@@ -350,7 +356,7 @@ Some recommended math courses, usefull specially for people want to specialize i
 - [Blog Series-multiple blog posts about Rust ML](https://tiberiusferreira.github.io/blog/)
 - [Track the state of Rust on the Machine learning field](https://www.arewelearningyet.com/)
 
-## Programming Languages 2
+### Programming Languages 2
 
 **CS part:**<br>
 This part should cover the materials needed to learn about designing programming languages, it's lengthy subject, my recommendation for anyone want to study it is to follow [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html) Curriculum, in addition to some books like [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/) and [Category Theory for Programmers](https://www.blurb.com/b/9621951-category-theory-for-programmers-new-edition-hardco).
@@ -361,21 +367,8 @@ This part should cover the materials needed to learn about designing programming
 - [**Playlist**-Writing a Programming Language](https://www.youtube.com/watch?v=XOOBL3bhFHs&list=PLkpGh2gaaueyzEAn07jf44LdscDeWRyzy)
 - [**Book**-Create Your Own Programming Language with Rust](https://createlang.rs/)
 
-## Extra
-
-Courses that are not necessary but I think they are cool
-
-| Course name                                                                                                                                                                                               | Associated Book | Other Resources | Prerequisite |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | --------------- | ------------ |
-| [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)                                                                                                                   | /               | /               | /            |
-| [Game Theory Part1](https://www.coursera.org/learn/game-theory-1)                                                                                                                                         | /               | /               | /            |
-| [Game Theory Part2](https://www.coursera.org/learn/game-theory-2)                                                                                                                                         | /               | /               | /            |
-| [Ben Eater's Build an 8-bit computer from scratch](https://eater.net/8bit)                                                                                                                                | /               | /               | /            |
-| [The Art of Multiprocessor Programming](https://www.elsevier.com/books/the-art-of-multiprocessor-programming/herlihy/978-0-12-415950-1) teaching both the theory of concurrency and practical algorithms. | /               | /               | /            |
-| [Great ressouces about designing systems](https://github.com/madd86/awesome-system-design)                                                                                                                | /               | /               | /            |
-| [Extra list of classic books](https://www.reddit.com/r/learnprogramming/comments/dd6e0g/what_are_your_favorite_books_on_general_cs/f2f270w/?utm_source=share&utm_medium=web2x&context=3)                  | /               | /               | /            |
-
 # What else I can do with Rust?
+
 
 Choose topics that interest you and study them while going through the curriculum.
 
