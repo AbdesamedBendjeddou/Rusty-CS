@@ -40,9 +40,9 @@ let RustyCS = CS.iter().zip(Rust.iter())
     - [Architecture and Organization](#architecture-and-organization)
     - [Networking and Communications](#networking-and-communications)
     - [Information Management](#information-management)
+    - [Operating Systems](#operating-systems)
   - [Advanced Section](#advanced-section)
     - [Algorithms 2](#algorithms-2)
-    - [Operating Systems](#operating-systems)
     - [Distributed Computing](#distributed-computing)
     - [Compilers and Interpreters](#compilers-and-interpreters)
     - [Information Assurance and Security](#information-assurance-and-security)
@@ -248,20 +248,6 @@ It's necessary to learn how databases work. You will find yourself dealing with 
 | [Berkeley CS186: Introduction to Database Systems](https://cs186berkeley.net/sp22/) | /                                                                                                                                | - [A course iteration were problems sets are available](https://cs186berkeley.net/fa20/) <br>- [Architecture of a Database System (Paper)](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf) <br>- [redbook.io](http://www.redbook.io/) | - Algorithms <br> - Introduction to Computer Systems <br> - Proficiency with Java |
 | Data Modeling                                                                                        | [Data and Reality: A Timeless Perspective](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215) | [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory)                                                                                                                         | /                |
 
-## Advanced Section
-
-### Algorithms 2
-
-**CS part:**<br>
-A more advanced treatment of algorithms.
-
-| Course name                                                                                                                                                                 | Associated Book                                                                                                 | Other Resources | Prerequisite               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------- | -------------------------- |
-| [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | /               | Introduction to Algorithms |
-
-**Rust part:**<br>
-solve more advanced problems from the challenges websites.
-
 ### Operating Systems
 
 **CS part:**<br>
@@ -279,6 +265,21 @@ So what happens when a program runs?
 - [**Book**-The Theseus OS Book](https://www.theseus-os.com/Theseus/book/index.html)
 - [**News Letter**-OSDev,Operating System Development in Rust](https://rust-osdev.com/)
 - [**Book**-intermezzOS OS](http://intermezzos.github.io/book/second-edition/)
+
+
+## Advanced Section
+
+### Algorithms 2
+
+**CS part:**<br>
+A more advanced treatment of algorithms.
+
+| Course name                                                                                                                                                                 | Associated Book                                                                                                 | Other Resources | Prerequisite               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------- | -------------------------- |
+| [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | /               | Introduction to Algorithms |
+
+**Rust part:**<br>
+solve more advanced problems from the challenges websites.
 
 ### Distributed Computing
 
