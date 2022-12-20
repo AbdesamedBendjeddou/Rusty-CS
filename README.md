@@ -42,8 +42,8 @@ let RustyCS = CS.iter().zip(Rust.iter())
     - [Information Management](#information-management)
     - [Operating Systems](#operating-systems)
   - [Advanced Section](#advanced-section)
-    - [Algorithms 2](#algorithms-2)
     - [Distributed Computing](#distributed-computing)
+    - [Algorithms 2](#algorithms-2)
     - [Compilers and Interpreters](#compilers-and-interpreters)
     - [Information Assurance and Security](#information-assurance-and-security)
     - [Software Engineering](#software-engineering)
@@ -269,18 +269,6 @@ So what happens when a program runs?
 
 ## Advanced Section
 
-### Algorithms 2
-
-**CS part:**<br>
-A more advanced treatment of algorithms.
-
-| Course name                                                                                                                                                                 | Associated Book                                                                                                 | Other Resources | Prerequisite               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------- | -------------------------- |
-| [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | /               | Introduction to Algorithms |
-
-**Rust part:**<br>
-solve more advanced problems from the challenges websites.
-
 ### Distributed Computing
 
 **CS part:**<br>
@@ -294,6 +282,19 @@ solve more advanced problems from the challenges websites.
 
 - [**Book**-Async Raft](https://async-raft.github.io/async-raft/) - the Raft distributed consensus protocol in async Rust
 - [TIKV Training program in Distributed Systems](https://tikv.org/blog/talent-training/)  this course focuses on implementing important distributed algorithms, including the Raft consensus algorithm, and the Percolator distributed transaction protocol.
+
+
+### Algorithms 2
+
+**CS part:**<br>
+A more advanced treatment of algorithms.
+
+| Course name                                                                                                                                                                 | Associated Book                                                                                                 | Other Resources | Prerequisite               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------- | -------------------------- |
+| [Design and Analysis of Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/index.htm) | [Introduction to algorithms 2nd ed- CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) | /               | Introduction to Algorithms |
+
+**Rust part:**<br>
+solve more advanced problems from the challenges websites.
 
 ### Compilers and Interpreters
 
