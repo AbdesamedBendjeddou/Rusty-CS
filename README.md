@@ -37,8 +37,8 @@ let RustyCS = CS.iter().zip(Rust.iter())
   - [Algorithms](#algorithms)
   - [Architecture and Organization](#architecture-and-organization)
   - [CS Tools](#cs-tools)
-  - [Networking and Communications](#networking-and-communications)
   - [Information Management](#information-management)
+  - [Networking and Communications](#networking-and-communications)
   - [Operating Systems](#operating-systems)
   - [Distributed Computing and Advanced Databases](#distributed-computing-and-advanced-databases)
   - [Compilers and Interpreters](#compilers-and-interpreters)
@@ -198,6 +198,16 @@ These resources are not related to this section, but they are included here to k
 
 - [Rust Quiz](https://dtolnay.github.io/rust-quiz/14)
 
+## Information Management
+
+It's necessary to learn how databases work. You will find yourself dealing with them in almost all fields of programming. Don't be intimidated by the number of courses, they are short.
+
+| Course name                                                                                   | Associated Book                                                                 | Other Resources                                                                                                                                     | Prerequisite                                                   |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory)              |                              /                                                  |                                        /                                                                                                            |                                          /                     |
+| [Databases: Relational Databases and SQL](https://www.edx.org/course/databases-5-sql)             |                              /                                                  |                                        /                                                                                                            |                                          /                     |
+| [Databases: Advanced Topics in SQL](https://www.edx.org/course/advanced-topics-in-sql)           |                              /                                                  |                                        /                                                                                                            |                                          /                     |
+| [Databases: Semistructured Data](https://www.edx.org/course/semistructured-data)             |                              /                                                  |                                        /                                                                                                            |                                          /                     |
 
 ## Networking and Communications
 
@@ -215,17 +225,6 @@ A reimplementation of what you learned about networks in Rust. This will be of g
 - [**Book**-Network Programming with Rust](https://www.oreilly.com/library/view/network-programming-with/9781788624893/)
 - [**Project**-Building a DNS server in Rust](https://github.com/EmilHernvall/dnsguide)
 - [**Course**-Low-Level Academy](https://lowlvl.org/)
-
-## Information Management
-
-It's necessary to learn how databases work. You will find yourself dealing with them in almost all fields of programming. Don't be intimidated by the number of courses, they are short.
-
-| Course name                                                                                   | Associated Book                                                                 | Other Resources                                                                                                                                     | Prerequisite                                                   |
-| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [Databases: Modeling and Theory](https://www.edx.org/course/modeling-and-theory)              |                              /                                                  |                                        /                                                                                                            |                                          /                     |
-| [Databases: Relational Databases and SQL](https://www.edx.org/course/databases-5-sql)             |                              /                                                  |                                        /                                                                                                            |                                          /                     |
-| [Databases: Advanced Topics in SQL](https://www.edx.org/course/advanced-topics-in-sql)           |                              /                                                  |                                        /                                                                                                            |                                          /                     |
-| [Databases: Semistructured Data](https://www.edx.org/course/semistructured-data)             |                              /                                                  |                                        /                                                                                                            |                                          /                     |
 
 
 ## Operating Systems
