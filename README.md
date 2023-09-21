@@ -141,6 +141,7 @@ This course covers the most important parts of mathematics relevant to Computer 
 These resources are not related to this section, but they are included here to keep your memory sharp and to be able to switch between doing the course and practicing Rust so you don't get bored.
 
 - [**Track**-Rust Exercism](https://exercism.org/tracks/rust)
+- [**Track**-Rust Practice Questions](https://rust-unofficial.github.io/rust-practise-questions/)
 - [**Project**-Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust/) - A test-driven workshop to learn Rust building your own JIRA clone!
 - [**Book**-Rust Programming by Example](https://www.amazon.com/Rust-Programming-Example-concurrent-applications/dp/1788390636)
 - [**Book**-Creative Projects for Rust Programmers](https://www.packtpub.com/programming/creative-projects-for-rust-programmers)
