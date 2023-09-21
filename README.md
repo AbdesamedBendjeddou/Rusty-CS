@@ -405,7 +405,7 @@ These are useful resources but are not meant to be read cover to cover. Instead,
 - [Rustacean Station](https://rustacean-station.org/)
 - [Rust-Saar](https://rust.saarland/)
 - [Rust Programming Language Community Discord Server](https://discord.gg/rust-lang-community)
-- [Rust Programming Language Official Discord Server](https://discord.gg/98ApvsFeCq)
+- [Rust Programming Language Official Discord Server](https://discord.com/invite/rust-lang)
 - [Rustacean Station Discord Server](https://discord.gg/ZFbGFF9T3J)
 - [Rust بالعربي Discord Server](https://discord.gg/UFFcsKsDx4)
 - [zulip chat](https://rust-lang.zulipchat.com/)
