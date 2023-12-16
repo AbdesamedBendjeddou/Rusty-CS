@@ -412,5 +412,6 @@ These are useful resources but are not meant to be read cover to cover. Instead,
 
 # Jobs
 
-- [RustJobs](https://rustjobs.dev/)
+- [RustJobs.com](https://www.rustjobs.com/)
+- [RustJobs.dev](https://rustjobs.dev/)
 - [Companies that use Rust](https://www.rust-lang.org/production/users)
