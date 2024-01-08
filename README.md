@@ -114,7 +114,7 @@ There is no particular order to go through the materials except of course readin
 - [**Book**-The Rust Programming Language Book](https://doc.rust-lang.org/book/) The offcial book of the language will give you an overview of the language from first principles.
 - [**Track**-Rustlings](https://github.com/rust-lang/rustlings/)
 - [**Track**-Rust By Practice](https://practice.rs/)
-- [**Project**-PNGme](https://picklenerd.github.io/pngme_book/introduction.html) - An Intermediate Rust Project.
+- [**Project**-PNGme](https://jrdngr.github.io/pngme_book/introduction.html) - An Intermediate Rust Project.
 - [**Project**-Triangle From Scratch](https://rust-tutorials.github.io/triangle-from-scratch/) - draw a triangle using Win32, but no external crates
 
 ## Programming Languages
